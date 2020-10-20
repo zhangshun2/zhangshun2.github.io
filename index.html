@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>阿顺的博客</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -20,13 +20,13 @@
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
   <script>
     var gitalk = new Gitalk({
       clientID: '8c5b1516763cf6fde04e',
       clientSecret: '8a6414d1fdee65966645b91579c07537669af426',
-      repo: 'zhangs-local-docsify-repo',
+      /*注释: 这里不要看网上的博客.这里只有上面俩憨憨id是实际在配Oauth app里相干的 , 这个repo是一个仓库,一个自己建的空的用来放评论区的仓库*/
+      repo: 'zhangs-comment',
       owner: 'zhangshun2',
       admin: ['zhangshun2'],
       title: location.hash.match(/#(.*?)([?]|$)/)[1],
