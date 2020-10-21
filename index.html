@@ -24,13 +24,22 @@
       /*开启侧边栏*/
       loadSidebar: true,
       /*最大渲染等级 3*/
-      subMaxLevel: 3
+      subMaxLevel: 3,
+      Valine: {
+        appId: 'pGkogaMJvhWV24qToOyEXHlG-gzGzoHsz',
+        appKey: 'orgxQLworN3tOWUckq0cQORs',
+        nick: '请输入评论的用户名'
+        // docPath: 'hash', //default to `hash` ,or you can choose `full`
+      }
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+<!--第二个外部评论模块-->
+<script src='/js/Valine.min.js'></script>
+<script src="//unpkg.com/docsify-valine/dist/docsify-valine.min.js"></script>
   <script>
     var gitalk = new Gitalk({
       clientID: '8c5b1516763cf6fde04e',
