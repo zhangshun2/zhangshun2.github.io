@@ -7,7 +7,7 @@
 
 <!-- background image -->
 
-![](_media/bg.png)
+<!--![](_media/迷雾_树林.jpg)-->
 
 <!-- background color -->
 
