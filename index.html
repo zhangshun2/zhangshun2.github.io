@@ -7,11 +7,16 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+<!--条幅-->
+  <link
+          rel="stylesheet"
+          href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css"
+  />
 </head>
 <body>
 <nav>
-  <a href="#/">EN</a>
-  <a href="#/zh-cn/">中文</a>
+  <a href="#/">传统</a>
+  <a href="#/bak/">备份</a>
 </nav>
   <div id="app"></div>
   <div id="git-container"></div>
@@ -30,7 +35,34 @@
         appKey: 'orgxQLworN3tOWUckq0cQORs',
         nick: '请输入评论的用户名'
         // docPath: 'hash', //default to `hash` ,or you can choose `full`
-      }
+      },
+      copyCode: {
+        buttonText : 'Copy to clipboard',
+        errorText  : 'Error',
+        successText: 'Copied'
+      },
+      footer: {
+        copy: '<span>日常博客 &copy; 2020</span>',
+        auth: 'by zhangshun2',
+        pre: '<hr/>',
+        style: 'text-align: right;',
+        class: 'className',
+      },
+      /*封面*/
+      coverpage: ['/', '/bak/'],
+      pagination: {
+        previousText: '上一章节',
+        nextText: '下一章节',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      /*更换md滚动到页头*/
+      auto2top: true,
+      /*,
+      /!*侧边栏展开和折叠*!/
+      alias: {
+        '/.*!/_sidebar.md': '/_sidebar.md',
+      },*/
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -40,6 +72,17 @@
 <!--第二个外部评论模块-->
 <script src='/js/Valine.min.js'></script>
 <script src="//unpkg.com/docsify-valine/dist/docsify-valine.min.js"></script>
+<!--这个插件有bug.其他折叠内容会不可用-->
+<!--
+侧边栏展开和折叠
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+&lt;!&ndash; plugins &ndash;&gt;
+<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>-->
+<script src="https://unpkg.com/docsify-copy-code@2"></script>
+<!--页脚增强插件-->
+<script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+<!--分页插件-->
+<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script>
     var gitalk = new Gitalk({
       clientID: '8c5b1516763cf6fde04e',
