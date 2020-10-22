@@ -13,7 +13,7 @@
    * 观察他们的特征,是github.io结尾的.这个域名和我git仓库的地址不一样
    * 于是百度关键词: io结尾的域名.搜到好多博客搭建网站.大概遍历得出关键词gitPage
    
-* 于是,我的gitPage博客搭建之路开始了
+* 于是,搭建gitPage
   * 创建一个{username}.github.io为名称的空仓库并选择readme.md初始化.
   * 可以创建index.html当做主页
   * 这里有两条路子可以选,嫖线上的模板.或者自己搭建docsify网站
