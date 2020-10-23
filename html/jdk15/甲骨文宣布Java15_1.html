@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html -->
+<html lang="zh-CN" class="js ishttps w11ready translated-ltr"><!-- OCE Press Layout --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<title>甲骨文宣布Java 15</title>
+			<meta name="Title" content="Oracle Announces Java 15">
+			<meta name="Description" content="Java 15 adds new features to improve developer productivity and security.">
+			<meta name="Keywords" content="Java,Java 15,JDK">
+			<meta name="siteid" content="us">
+			<meta name="countryid" content="US">
+			<meta name="country" content="United States">
+			<meta name="Language" content="en-us">
+			<meta name="Updated Date" content="2020-09-15T07:20:00.000-04:00">
+			<meta name="robots" content="index follow">
+			<meta name="site" content="PressReleases">
+			<!-- Taxonomy meta starts -->
+			<meta name="txcountry" content="WM170815">
+			<meta name="txregion" content="WM153006">
+			<meta name="txwtc" content="WM147082">
+			
+			<!-- Taxonomy Ends here -->
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+			
+
+			
+<!-- Container/Display Start -->
+
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- Page Container -->
+<link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-32.png" sizes="32x32">
+<link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-128.png" sizes="128x128">
+<link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-180.png" sizes="180x180">
+<meta name="msapplication-TileColor" content="#fcfbfa">
+<meta name="msapplication-square70x70logo" content="favicon-128.png">
+<meta name="msapplication-square150x150logo" content="favicon-270.png">
+<meta name="msapplication-TileImage" content="favicon-270.png">
+<meta name="msapplication-config" content="none">
+  <style>
+  #oReactiveChatContainer1 { display:none;}
+  </style>  
+<!--End-->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+<!-- Container/Display end -->
+
+<!-- Container/Display Start -->
+
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- Head Container -->
+<!-- BEGIN CSS/JS -->
+<script type="text/javascript" async="" src="./甲骨文宣布Java15_files/infinity_click_tracking_ocom.js.下载"></script><script type="text/javascript" async="" src="./甲骨文宣布Java15_files/infinity_common.js.下载"></script><script type="text/javascript" async="" src="./甲骨文宣布Java15_files/elqCfg.min.js.下载"></script><script async="" src="./甲骨文宣布Java15_files/bk-coretag.js.下载"></script><script>
+// akam-sw.js install script version 1.3.3
+"serviceWorker"in navigator&&"find"in[]&&function(){var e=new Promise(function(e){"complete"===document.readyState||!1?e():(window.addEventListener("load",function(){e()}),setTimeout(function(){"complete"!==document.readyState&&e()},1e4))}),n=window.akamServiceWorkerInvoked,r="1.3.3";if(n)aka3pmLog("akam-setup already invoked");else{window.akamServiceWorkerInvoked=!0,window.aka3pmLog=function(){window.akamServiceWorkerDebug&&console.log.apply(console,arguments)};function o(e){(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"sm.sw.s":e,"sm.sw.v":r}])}var i="/akam-sw.js",a=new Map;navigator.serviceWorker.addEventListener("message",function(e){var n,r,o=e.data;if(o.isAka3pm)if(o.command){var i=(n=o.command,(r=a.get(n))&&r.length>0?r.shift():null);i&&i(e.data.response)}else if(o.commandToClient)switch(o.commandToClient){case"enableDebug":window.akamServiceWorkerDebug||(window.akamServiceWorkerDebug=!0,aka3pmLog("Setup script debug enabled via service worker message"),p());break;case"boomerangMQ":o.payload&&(window.BOOMR_mq=window.BOOMR_mq||[]).push(o.payload)}aka3pmLog("akam-sw message: "+JSON.stringify(e.data))});var t=function(e){return new Promise(function(n){var r,o;r=e.command,o=n,a.has(r)||a.set(r,[]),a.get(r).push(o),navigator.serviceWorker.controller&&(e.isAka3pm=!0,navigator.serviceWorker.controller.postMessage(e))})},c=function(e){return t({command:"navTiming",navTiming:e})},s=null,m={},d=function(){var e=i;return s&&(e+="?othersw="+encodeURIComponent(s)),function(e,n){return new Promise(function(r,i){aka3pmLog("Registering service worker with URL: "+e),navigator.serviceWorker.register(e,n).then(function(e){aka3pmLog("ServiceWorker registration successful with scope: ",e.scope),r(e),o(1)}).catch(function(e){aka3pmLog("ServiceWorker registration failed: ",e),o(0),i(e)})})}(e,m)},g=ServiceWorkerContainer.prototype.register;if(ServiceWorkerContainer.prototype.register=function(n,r){return n.includes(i)?g.call(this,n,r):(aka3pmLog("Overriding registration of service worker for: "+n),s=new URL(n,window.location.href),m=r,navigator.serviceWorker.controller?new Promise(function(n,r){var o=navigator.serviceWorker.controller.scriptURL;if(o.includes(i)){var a=encodeURIComponent(s);o.includes(a)?(aka3pmLog("Cancelling registration as we already integrate other SW: "+s),navigator.serviceWorker.getRegistration().then(function(e){n(e)})):e.then(function(){aka3pmLog("Unregistering existing 3pm service worker"),navigator.serviceWorker.getRegistration().then(function(e){e.unregister().then(function(){return d()}).then(function(e){n(e)}).catch(function(e){r(e)})})})}else aka3pmLog("Cancelling registration as we already have akam-sw.js installed"),navigator.serviceWorker.getRegistration().then(function(e){n(e)})}):g.call(this,n,r))},navigator.serviceWorker.controller){var u=navigator.serviceWorker.controller.scriptURL;u.includes("/akam-sw.js")||u.includes("/akam-sw-preprod.js")||u.includes("/threepm-sw.js")||(aka3pmLog("Detected existing service worker. Removing and re-adding inside akam-sw.js"),s=new URL(u,window.location.href),e.then(function(){navigator.serviceWorker.getRegistration().then(function(e){m={scope:e.scope},e.unregister(),d()})}))}else e.then(function(){window.akamServiceWorkerPreprod&&(i="/akam-sw-preprod.js"),d()});if(window.performance){var w=window.performance.timing,l=w.responseEnd-w.responseStart;c(l)}e.then(function(){t({command:"pageLoad"})});var k=!1;function p(){window.akamServiceWorkerDebug&&!k&&(k=!0,aka3pmLog("Initializing debug functions at window scope"),window.aka3pmInjectSwPolicy=function(e){return t({command:"updatePolicy",policy:e})},window.aka3pmDisableInjectedPolicy=function(){return t({command:"disableInjectedPolicy"})},window.aka3pmDeleteInjectedPolicy=function(){return t({command:"deleteInjectedPolicy"})},window.aka3pmGetStateAsync=function(){return t({command:"getState"})},window.aka3pmDumpState=function(){aka3pmGetStateAsync().then(function(e){aka3pmLog(JSON.stringify(e,null,"\t"))})},window.aka3pmInjectTiming=function(e){return c(e)},window.aka3pmUpdatePolicyFromNetwork=function(){return t({command:"pullPolicyFromNetwork"})})}p()}}();</script>
+<script>
+!function(){
+var d=document.documentElement;d.className=d.className.replace(/no-js/,'js');
+if(document.location.href.indexOf('betamode=') > -1) document.write('<script src="https://www.oracle.com/asset/web/js/ocom-betamode.js"><\/script>');
+}();
+</script>
+
+<link data-wscss="" href="./甲骨文宣布Java15_files/redwood-base.css" rel="stylesheet" as="style" onload="this.rel=&#39;stylesheet&#39;;" onerror="this.rel=&#39;stylesheet&#39;">
+<link data-wscss="" href="./甲骨文宣布Java15_files/redwood-styles.css" rel="stylesheet" as="style" onload="this.rel=&#39;stylesheet&#39;;" onerror="this.rel=&#39;stylesheet&#39;">
+
+<noscript>
+<link href="https://www.oracle.com/asset/web/css/redwood-base.css" rel="stylesheet">
+<link href="https://www.oracle.com/asset/web/css/redwood-styles.css" rel="stylesheet">
+</noscript>
+
+<script src="./甲骨文宣布Java15_files/redwood-base.js.下载"></script><link data-wsjs="" data-reqjq="" href="./甲骨文宣布Java15_files/redwood-base.js.下载" rel="preload" as="script">
+<script src="./甲骨文宣布Java15_files/redwood-lib.js.下载"></script><link data-wsjs="" data-reqjq="" href="./甲骨文宣布Java15_files/redwood-lib.js.下载" rel="preload" as="script">
+
+<script data-wsjs="" src="./甲骨文宣布Java15_files/jquery-min.js.下载" async="" onload="$(&#39;head link[data-reqjq][rel=preload]&#39;).each(function(){var a = document.createElement(&#39;script&#39;);a.async=false;a.src=$(this).attr(&#39;href&#39;);this.parentNode.insertBefore(a, this);});$(function(){$(&#39;script[data-reqjq][data-src]&#39;).each(function(){this.async=true;this.src=$(this).data(&#39;src&#39;);});});"></script>
+<script src="./甲骨文宣布Java15_files/satelliteLib-e598c5b61e39a10b402e048e87dd27b0f1cd2d4c.js.下载"></script><script type="text/javascript" src="./甲骨文宣布Java15_files/notice" async="" crossorigin="" id="truste_0.14310978645940375"></script>
+<script type="text/javascript">
+if (location.pathname.indexOf("/ru/") === 0){
+  document.write('\x3Cscript src=//consent.truste.com/notice?domain=oracleru.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&cdn=1&pcookie async crossorigin="">\x3C/script>');
+}
+</script><script>
+/*if(dataLayerObject.page.pageInfo.keywords){
+  var _variation = false;
+  var keywordaArr = dataLayerObject.page.pageInfo.keywords.split(',');
+  console.log(keywordaArr);
+  keywordaArr.forEach(function(ele){
+    console.log(ele);
+    if(ele.trim().indexOf('AA') != -1) {
+      console.log("in if");
+      _variation = ele.trim();
+       dataLayerObject.page.variation = _variation;
+    }
+  });
+  if(_variation){
+     console.log("_variation", _variation);
+    dataLayerObject.page.variation = _variation;
+  }
+}
+*/
+</script><script>_satellite["__runScript1"](function(event, target) {
+/* Function to get profile User Type and login status of User */
+function getUserInfo(){
+	var user = {};
+	
+	if (_satellite.cookie.get('ORA_WWW_MRKT')) { // Check for the cookie - use the ORA_WWW_MRKT first but if that doesn't exist then look to use ORA_UCM_INFO
+		var mrktCookie =  _satellite.cookie.get('ORA_WWW_MRKT');
+    	user.userType = (mrktCookie.toLowerCase().indexOf('employee') > 0 ) ? "O" : "P";
+		user.profileGUID = mrktCookie.split('~')[1].slice(2);
+		user.cookieName = 'www_mrkt';
+	} else if (_satellite.cookie.get('ORA_UCM_INFO')) { // If ORA_WWW_MRKT is not there, then look for the ORA_UCM_INFO cookie
+		var ucmCookie =  _satellite.cookie.get('ORA_UCM_INFO');
+		ucmCookie.split('~')[4] && (
+		  user.userType = (ucmCookie.split('~')[4] .toLowerCase().indexOf('@oracle') > 0) ? "O" : "P"
+		);
+		user.profileGUID = ucmCookie.split('~')[1];
+		user.cookieName = 'ucm_info';
+	} else { // If ora_www_mrkt and ora_ucm_info doesn't exist, its an Unsigned User.
+		user.userType = 'U';
+		user.cookieName = 'NoCookie';
+		user.profileGUID = 'NotSet';
+	}
+  
+    if (_satellite.cookie.get('ORA_WWW_PERSONALIZE')){
+      user.profileInfo = getPersonalizeObject();
+    }
+	return user;
+}	
+	
+var consent_level = _satellite.getVar('trusteConsent'); // Check for User's Truste consent preferences.
+var userInfo =  getUserInfo(); // Read User' profile information.
+
+dataLayerObject.user.isLoggedIn = (userInfo.userType == 'U') ? 'Not Logged In' : 'Logged In'; // Set login status to Data layer.
+
+// Check for Truste consent. Set ORA_WWW_MRKT and ORA_UCM_INFO only if the User has opted in for Functional cookies.
+if ((consent_level.truste_consent.indexOf(0) != -1 || consent_level.truste_consent.indexOf(2) != -1  || consent_level.truste_consent.indexOf(3) != -1) ) {
+  // Assign userType, cookieStatus and profileGUID to User object in Data Layer
+  dataLayerObject.user.userType = userInfo.userType;
+  dataLayerObject.user.cookieStatus = userInfo.cookieName;
+  if (consent_level.truste_consent.indexOf(0) != -1  || consent_level.truste_consent.indexOf(3) != -1) { // Set GUID, if the User consent is implied (consent level - 0) or explicit (consent level - 3)
+    dataLayerObject.user.profileGUID = userInfo.profileGUID;
+    
+    //Set ORA_WWW_PERSONALIZE cookie value 
+    if(userInfo.profileInfo){dataLayerObject.user.profile.profileInfo = userInfo.profileInfo;}
+  } else {  
+    dataLayerObject.user.profileGUID = 'NoConsent';
+    dataLayerObject.user.profile.profileInfo = 'NoConsent';
+  }
+} else {
+  dataLayerObject.user.userType = 'A'; //If no Truste consent, its an Anonymous User.
+  dataLayerObject.user.cookieStatus = 'NoConsent';
+  dataLayerObject.user.profileGUID = 'NoConsent';
+  dataLayerObject.user.profile.profileInfo = 'NoConsent';
+}
+
+// If the TRUSTe preference is not to have advertising OR functional cookies, then don't set Eloqua GUID.
+if ((consent_level.truste_consent.indexOf(0) != -1 || consent_level.truste_consent.indexOf(2) != -1  || consent_level.truste_consent.indexOf(3) != -1) ) {
+  if (_satellite.cookie.get('ELOQUA')){
+    dataLayerObject.user.eloqua.guid = _satellite.cookie.get('ELOQUA').replace('GUID=','');
+  } else {
+    setTimeout (function() {
+      _satellite.cookie.get('ELOQUA') && ( dataLayerObject.user.eloqua.guid = _satellite.cookie.get('ELOQUA').replace('GUID=','') )
+    }, 2000);
+  }
+} else { // No Truste Consent
+   dataLayerObject.user.eloqua.guid = 'NoConsent';
+}
+
+/* Function to check if the User is New or Return visitor, read it from Cookie s_nr */
+if (_satellite.cookie.get('s_nr')) {
+  dataLayerObject.user.isReturning = _satellite.cookie.get('s_nr').split('-')[1] == 'Repeat'? 'Repeat' : 'New';
+} else {
+  setTimeout (function() {
+      _satellite.cookie.get('s_nr') && (dataLayerObject.user.isReturning = _satellite.cookie.get('s_nr').split('-')[1] == 'Repeat'? 'Repeat' : 'New')
+  }, 2000);
+}  
+
+function getPersonalizeObject(){
+  var cookieValue = _satellite.cookie.get('ORA_WWW_PERSONALIZE');
+  var tempObj ={};
+  cookieValue.split('~').forEach(function(v,i){
+    var valArr = v.split(':');
+    if(valArr.length == 2){
+       tempObj[valArr[0]] = valArr[1];
+    }
+  });
+  if(Object.keys(tempObj).length > 0){
+    var obj = {};
+    obj.ind = tempObj.i;
+    obj.role = tempObj.r;
+    obj.reg = tempObj.g;
+    obj.lang = tempObj.l;
+    obj.cSize = tempObj.cs;
+    obj.cName = tempObj.cn;
+    
+    return obj;
+  }else{
+    return cookieValue;
+  }
+}
+});</script><script>_satellite["__runScript2"](function(event, target) {
+var cookieRegistry = [];
+//Get User Details
+function listenCookieChange(cookieName, callback) {
+    setInterval(function() {
+        if (cookieRegistry[cookieName]) {
+            var latestCookieVal = _satellite.cookie.get(cookieName) ? _satellite.cookie.get(cookieName) : 'NA'; 
+            if ( latestCookieVal != cookieRegistry[cookieName]) {
+                cookieRegistry[cookieName] = latestCookieVal;
+                return callback(latestCookieVal);
+            }
+        } else {
+            cookieRegistry[cookieName] = _satellite.cookie.get(cookieName) ? _satellite.cookie.get(cookieName) : 'NA';
+        }
+    }, 1000);
+}
+
+//listen for change in 'notice_gdpr_prefs' cookie and update changes to dataLayerObject
+listenCookieChange('notice_gdpr_prefs', function(cookie) {
+  console.log('Truste Consent Changed');
+  window.dataLayerObject.privacy.consentDecision = window.oracle.truste.api.getGdprConsentDecision().consentDecision;
+  window.dataLayerObject.privacy.consentSource = window.oracle.truste.api.getGdprConsentDecision().source;
+  console.log(window.dataLayerObject);
+});
+
+//add truste and Do Not Track values to dataLayer
+window.dataLayerObject.privacy.consentDecision = _satellite.getVar('trusteConsent')['truste_consent'];
+window.dataLayerObject.privacy.dnt = _satellite.getVar('trusteConsent')['dnt'];
+
+//Set campaigns status to "NoTrack" id DNT enabled
+if(window.dataLayerObject.privacy.dnt === true){
+  window.dataLayerObject.user.campaigns.status = "NoTrack";
+}
+
+//update country code
+window.addEventListener("load", function(){
+  //window.dataLayerObject.privacy.consentSource = window.oracle.truste.api.getGdprConsentDecision().source;
+  window.dataLayerObject.privacy.consentDecision = window.oracle.truste.api.getGdprConsentDecision ? window.oracle.truste.api.getGdprConsentDecision().consentDecision : window.oracle.truste.api.getConsentDecision().consentDecision;
+  window.dataLayerObject.privacy.consentSource = window.oracle.truste.api.getGdprConsentDecision ? window.oracle.truste.api.getGdprConsentDecision().source : window.oracle.truste.api.getConsentDecision().source;
+    if(window.truste != 'undefined') {
+      if (window.truste.eu && window.truste.eu.bindMap && window.truste.eu.bindMap.country){
+        window.dataLayerObject.user.geoCountry = window.truste.eu.bindMap.country;
+      }    
+   }
+}, false);
+});</script>
+<!-- END CSS/JS -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+<!-- Container/Display end -->
+
+				<!-- F13v0 -->
+			  
+				<meta property="og:title" content="Oracle Announces Java 15">
+			    
+				<meta property="og:description" content="Java 15 adds new features to improve developer productivity and security.">
+			    
+				<meta property="og:image" content="https://www.oracle.com/oce/press/assets/CONT94F952A50EED4B16BDD9FBDC5787459A/native/og-shared-java-25yrs.gif">
+			    
+				<!-- /F13v0 -->
+			  
+				<!-- F13v1 -->
+				<meta name="twitter:card" content="summary">
+			    
+				<meta name="twitter:title" content="Oracle Announces Java 15">
+			    
+				<meta name="twitter:description" content="Java 15 adds new features to improve developer productivity and security.">
+			    
+				<meta name="twitter:image" content="https://www.oracle.com/oce/press/assets/CONT94F952A50EED4B16BDD9FBDC5787459A/native/og-shared-java-25yrs.gif">
+			    
+				<!-- /F13v1 -->
+			  
+<!-- start : press/oce/global/components/seo-hreflang-meta-tags -->
+		<link rel="canonical" href="https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html">
+		
+					<link rel="alternate" hreflang="en-US" href="https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html">
+					
+<!-- end : press/oce/global/components/seo-hreflang-meta-tags -->
+
+		
+  <script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-14277653-b056-452b-bd08-79caf7d1e13b","rua.cook":"true","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"true"}]);</script>
+  <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="DXNLE-YBWWY-AR74T-WMD99-77VRA",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(c){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"DXNLE-YBWWY-AR74T-WMD99-77VRA";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n="true"=="true"?1:0,t="cookiepresent",a="opwdmcqxy6diux4ssjea-f-0d1359de2-clientnsv4-s.akamaihd.net",i={"ak.v":"29","ak.cp":"82485","ak.ai":parseInt("604074",10),"ak.ol":"0","ak.cr":117,"ak.ipv":4,"ak.proto":"h2","ak.rid":"f619390","ak.r":29649,"ak.a2":n,"ak.m":"dscx","ak.n":"essl","ak.bpcip":"115.236.54.0","ak.cport":6958,"ak.gh":"23.45.232.111","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"","ak.t":"1603441224","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==8FqvMzbXfiGACOyh/4H8dJYrnKAxqdqqP83rxrFnq0kVY2kjvoKq51Lr4XutR2Vvnkye/+xRT0lkcJ+sdU0vandRmFffA+m+T+CP65cgRrVdMrmv/Rnk4IHM1RQxQe7gKHckbYBMJseeTBhP4ebQnv7TWWmR9HX6oY3pRnLQaLoYroD+yumRaYT6xlPZSg3gvjTmt2G7KzyuJyIhSksC+Ecog5kxBneECdMz1Wkj7bBLnOEqOEmY2DAWQ7ctit1E1KB3lFnstmWd4MnKpXgZbZS31VVIsOxcJigLTQH5gdKXzU+trydbNQmuznL4HybOvhGIi6ecCC0zxrKqXXoyl0isSHDU9kS5TH0yKYuFL9+M5cQpgrYSex+oAgS+Y0+qsKF8rOcC1weCGIWW9ilXvBBd2crMWcQpC1q6J5htyCw=","ak.pv":"133","ak.dpoabenc":""};if(""!==t)i["ak.ruds"]=t;var o={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!o.i){var e=BOOMR.subscribe;e("before_beacon",o.av,null,null),e("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script><link href="./甲骨文宣布Java15_files/DXNLE-YBWWY-AR74T-WMD99-77VRA" rel="preload" as="script"><script id="boomr-scr-as" src="./甲骨文宣布Java15_files/DXNLE-YBWWY-AR74T-WMD99-77VRA" async=""></script><style id="tsbrowser_video_independent_player_style" type="text/css">
+      [tsbrowser_force_max_size] {
+        width: 100% !important;
+        height: 100% !important;
+        left: 0px !important;
+        top: 0px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        transform: none !important;
+      }
+      [tsbrowser_force_fixed] {
+        position: fixed !important;
+        z-index: 9999 !important;
+        background: black !important;
+      }
+      [tsbrowser_force_hidden] {
+        opacity: 0 !important;
+        z-index: 0 !important;
+      }
+      [tsbrowser_hide_scrollbar] {
+        overflow: hidden !important;
+      }
+      [tsbrowser_display_none] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+      [tsbrowser_force_show] {
+        display: black !important;
+        visibility: visible !important;
+        opacity: 0;
+      }</style><script src="./甲骨文宣布Java15_files/odc.js.下载" async="" type="text/javascript"></script><script src="./甲骨文宣布Java15_files/handlebars-redwood.js.下载" type="text/javascript"></script><script type="text/javascript" src="./甲骨文宣布Java15_files/analytics-production.js.下载" async="true" defer="true"></script><script type="text/javascript" src="./甲骨文宣布Java15_files/common.js.下载" async="true" defer="true"></script><script type="text/javascript" src="./甲骨文宣布Java15_files/analytics.js.下载" async="true" defer="true"></script><script src="./甲骨文宣布Java15_files/RCd22796882f26495791e06e75d1eaef2a-source.min.js.下载" async=""></script><script src="./甲骨文宣布Java15_files/RC3d86db7dd38349388d2438c580b4a06c-source.min.js.下载" async=""></script><script src="./甲骨文宣布Java15_files/RCb17aced6778c4b6ba1bbf45aba952fec-source.min.js.下载" async=""></script><link id="dnsprefetchlink" rel="dns-prefetch" href="https://opwdmcqxy6diux4ssjea-f-0d1359de2-clientnsv4-s.akamaihd.net/"><script type="text/javascript" async="" src="./甲骨文宣布Java15_files/js(1)"></script><link type="text/css" rel="stylesheet" charset="UTF-8" href="./甲骨文宣布Java15_files/translateelement.css"></head>
+
+		
+
+		<body class="f20 f20v0 ready u10hide" style="opacity:0"><div id="consent_blackbar"></div>
+
+			
+<!-- Container/Display Start -->
+
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- Start Body Container -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+<!-- Container/Display end -->
+
+			<div class="f20w1">
+
+				
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- U28v1 -->
+<section class="u28 u28v1 u28adj killtransition dropdownloaded u28-up u28-past" id="u28" data-trackas="header"><span class="u28bttop"></span><span class="u28cover"></span>
+	<div class="u28w1">
+		<div class="cwidth">
+			<div class="u28s1" id="u28s1">
+				<a class="u28home rw-logo" href="https://www.oracle.com/" tabindex="0" data-lbl="logo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家</font></font></a>
+				<a class="u28ham u28clickable" href="https://www.oracle.com/universal-menu/" tabindex="0" data-lbl="menu" aria-controls="u28navw1" aria-expanded="false" aria-haspopup="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导航</font></font></a>
+			</div>
+			<div class="u28s2 killtransition" style="width: 411px; transform: translate(430px, 0px);">
+				<div class="u28w2">
+					<form name="askoracle" id="askoracle" class="askoracle" data-contentpaths="/content/Web/Shared/Auto-Suggest Panel Event" method="get" action="https://www.oracle.com/search/results">
+						<input type="hidden" name="Nty" value="1">
+						<input type="hidden" name="Dy" value="1">
+						<input type="hidden" name="Ntk" value="SI-ALL5">
+						<input type="hidden" name="cty" value="us">
+						<input type="hidden" name="lang" value="en">
+						<div class="u28w3">
+							<div class="u28logo rw-logo">
+								<span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">甲骨文</font></font></span>
+							</div>
+							<a class="u28-back rw-cv-left" href="https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html#back">
+								<span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关</font></font></span>
+							</a>
+							<a class="u28-searchicon" href="https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html#search" tabindex="-1">
+								<span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">搜索</font></font></span>
+							</a>
+							<span class="u28input">
+								<input id="askoracleinput" name="Ntt" value="" data-prefix="Ask" placeholder="问" autocomplete="off" role="" aria-label="搜索Oracle.com" tabindex="0" type="text">
+								<span class="u28submit">
+									<font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input class="u28searchbttn" tabindex="0" type="submit" value="提交搜寻"></font></font>
+								</span>
+							<div class="u28placeholder"><span style="">Ask "Working at Oracle"</span></div><a href="https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html#" class="u28clsSearch"></a></span>
+						</div>
+					</form>
+				<div class="u28suggestw1"><ul class="u28suggest"></ul></div></div>
+
+			</div>
+
+			<nav class="u28s4 u28clickable">
+				<a class="u28search u28navitm" id="u28search" href="https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html#" data-lbl="o-search-menu"><span>Search</span></a>
+				<a href="https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html#" data-lbl="o-products-menu" data-target="products" class="u28navitm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">产品展示</font></font></a>
+				<a href="https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html#" data-lbl="o-resources-menu" data-target="resources" class="u28navitm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源资源</font></font></a>
+				<a href="https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html#" data-lbl="o-support-menu" data-target="support" class="u28navitm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font></font></a>
+				<a href="https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html#" data-lbl="o-events-menu" data-target="events" class="u28navitm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大事记</font></font></a>
+			</nav>
+
+			<div class="u28s3" id="u28s3">
+
+				<div class="u28-profile" tabindex="-1">
+					<a href="https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html#" class="u28prof" data-lbl="sign-in-account" tabindex="0" aria-controls="u28-profilew1" aria-label="登入" aria-expanded="false" aria-haspopup="true"><div class="acttxt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看账户</font></font></div></a>
+					<div class="u28-profilew1" tabindex="-1" id="u28-profilew1" style="">
+					<span class="u28actbck u28back">Back</span>
+						<span class="u28acttitle">Oracle Account</span>
+						<ul class="u28l-out">
+							<li><a href="https://www.oracle.com/webapps/redirect/signon?nexturl=https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html" data-lbl="profile:sign-in-account" class="u28btn1" tabindex="-1">Sign-In</a></li>
+							<li><a href="https://profile.oracle.com/myprofile/account/create-account.jspx" data-lbl="profile:create-account" class="u28btn2" tabindex="-1">Create an Account</a></li>
+						</ul>
+						<ul class="u28l-in">
+							<li><a href="https://www.oracle.com/corporate/contact/help.html" data-lbl="help" tabindex="-1">Help</a></li>
+							<li><a href="javascript:sso_sign_out();" id="u28pfile-sout" data-lbl="signout" tabindex="-1">Sign Out</a></li>
+						</ul>
+						<div class="u28-profilew2">
+							<span class="u28acttitle">Cloud Account</span>
+							<a href="https://www.oracle.com/cloud/sign-in.html" class="u28cloudbg" data-lbl="go-to-cloud-website" tabindex="-1">Sign in to <span> Cloud</span></a>
+							<a href="https://www.oracle.com/cloud/free/?source=:ow:o:h:nav:OHP0625ViewAccountsButton&amp;intcmp=:ow:o:h:nav:OHP0625ViewAccountsButton" class="u28btn2" data-lbl="cta-0625-nav-header-accounts-free-tier-oci" tabindex="-1">Sign Up for Cloud Free Tier</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="u28w4" id="u28w4">
+		<div class="u28w1a u28w5 clstrgt">
+			<div class="u28w6">
+
+				<!-- Search Results -->
+				<div class="u28w8 u28trgt" style="width: 411px; left: 709.5px;"><ul class="u28skel"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul></div>
+				<div class="u28w9">
+					<div class="u28result u28noresults">
+						<div class="u28rw1">
+							<div class="u28rw2">
+								<h4>No results found</h4>
+								<p>Your search did not match any results.</p>
+								<p>We suggest you try the following to help find what you’re looking for:</p>
+								<ul class="u28w7a">
+									<li>Check the spelling of your keyword search.</li>
+									<li>Use synonyms for the keyword you typed, for example, try “application” instead of “software.”</li>
+									<li>Try one of the popular searches shown below.</li>
+									<li>Start a new search.</li>
+								</ul>
+								<h5>Trending Questions</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<ul class="u28w7">
+		<li>How are customers using Oracle Cloud apps and infrastructure?</li>
+		<li>Analyst Reports</li>
+		<li>College recruiting</li>
+		<li>Working at Oracle</li>
+		<li>Can I take advantage of the cloud in my own data center?</li>
+		<li>HCM</li>
+		<li>Oracle business transformation</li>
+		<li>Try Oracle Cloud for free</li>
+		<li>How can I create an agile supply chain?</li>
+		<li>Blockchain applications</li>
+		<li>Oracle vs AWS</li> 
+		<li>Financials</li>
+	</ul></div>
+		</div>
+
+	</div>
+
+	<nav id="u28nav" class="u28nav bgload" data-trackas="menu" aria-role="menu" tabindex="-1" style="height: 1611.06px;">
+		<a href="https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html#close" class="mnavback u28back icn-close">Close</a>
+	<div class="u28nav-r2 u28navw1 cwidth">
+
+	<!--Products-->
+	<h2 class="rw-ptitle">Products</h2>
+	<div class="u28navw2 u28twoclm u28clm" data-type="products" style="display: none;">
+		<div class="u28twoclm u28clm u28clmdiv">
+			<div class="u28t1">
+				<h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基础设施</font></font></h2>
+			</div>
+			<div>
+				<ul>
+					<li><h3 class="icn-cloud u28linked"><a href="https://www.oracle.com/cloud/" data-lbl="o-products-menu-infra/oci-cloud"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle云基础架构</font></font></a></h3>
+						<ul>
+							<li><a href="https://www.oracle.com/cloud/free/?source=:ow:o:s:nav:062520GlobalNavProducts&amp;intcmp=:ow:o:s:nav:062520GlobalNavProducts" data-lbl="global-nav-products:cloud-free-tier"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle云免费套餐</font></font></a></li>
+							<li><a href="https://www.oracle.com/cloud/compute/" data-lbl="o-products-menu-infra/oci-cloud-compute"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">计算</font></font></a></li>
+							<li><a href="https://www.oracle.com/cloud/storage/" data-lbl="o-products-menu-infra/oci-cloud-storage"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">存储</font></font></a></li>
+							<li><a href="https://www.oracle.com/cloud/networking/" data-lbl="o-products-menu-infra/oci-cloud-networking"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联网</font></font></a></li>
+							<li><a href="https://www.oracle.com/business-analytics/" data-lbl="o-products-menu-infra/oci-bus-analyt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析工具</font></font></a></li>
+							<li><a href="https://www.oracle.com/application-development/" data-lbl="o-products-menu-infra/oci-app-dev"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用开发</font></font></a></li>
+							<li><a href="https://www.oracle.com/database/" data-lbl="o-products-menu-infra/oci-database"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云数据库服务</font></font></a></li>
+							<li><a href="https://www.oracle.com/marketingcloud/products/content-and-experience/" data-lbl="o-products-menu-infra/oci-mktg-cloud-prods-cont-exp"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内容管理</font></font></a></li>
+							<li><a href="https://www.oracle.com/middleware/application-integration/" data-lbl="o-products-menu-infra/oci-mware-data-int"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">积分</font></font></a></li>
+							<li><a href="https://www.oracle.com/manageability/" data-lbl="o-products-menu-infra/oci-cloud-sys-mgt-cloud-svces"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可观察性与管理</font></font></a></li>
+							<li><a href="https://www.oracle.com/security/" data-lbl="o-products-menu-infra/oci-cloud-security"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全性，身份和合规性</font></font></a></li>
+							<li><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/homePage.jspx" data-lbl="o-products-menu-infra/oci-cloud-mktplace"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云市场</font></font></a></li>
+							<li><a href="https://www.oracle.com/cloud/cloud-at-customer/" data-lbl="o-products-menu-infra/oci-eng-sys-exadata-cloud@cust"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云@客户</font></font></a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li><h3 class="icn-file-web u28linked"><a href="https://www.oracle.com/products/software.html" data-lbl="o-products-menu-software-products"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件</font></font></a></h3>
+						<ul>
+							<li><a href="https://www.oracle.com/database/technologies/" data-lbl="o-products-menu-software-database-technologies"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">甲骨文数据库</font></font></a></li>
+							<li><a href="https://www.oracle.com/java/" data-lbl="o-products-menu-software-java"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">爪哇</font></font></a></li>
+							<li><a href="https://www.oracle.com/linux/" data-lbl="o-products-menu-software-linux"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的Linux</font></font></a></li>
+							<li><a href="https://www.mysql.com/" data-lbl="o-products-menu-software-mysql"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的MySQL</font></font></a></li>
+							
+						</ul>
+					</li>
+					<li><h3 class="icn-push-campaign u28linked"><a href="https://www.oracle.com/it-infrastructure/" data-lbl="o-products-menu-hardware-it-infra"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">硬件</font></font></a></h3>
+						<ul>
+							<li><a href="https://www.oracle.com/engineered-systems/exadata/" data-lbl="o-products-menu-hardware-eng-sys-exadata"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据库云服务器</font></font></a></li>
+							
+						</ul>
+					</li>
+
+					<li><h3 class="icn-certification u28linked"><a href="https://www.oracle.com/autonomous-database/" data-lbl="o-products-menu-featured"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特色产品</font></font></a></h3>
+						<ul>
+							<li><a href="https://www.oracle.com/autonomous-database/" data-lbl="o-products-menu-featured-adb"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自治数据库</font></font></a></li>
+							<li><a href="https://www.oracle.com/industries/public-sector/" data-lbl="o-products-menu-featured-gov-cloud"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于政府的Oracle Cloud</font></font></a></li>
+							
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--Right Column-->
+		<div class="u28twoclm u28clm">
+			<div class="u28t1">
+				<h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用领域</font></font></h2>
+			</div>
+			<div>
+				<ul>
+					<li><h3 class="icn-cloud-tag u28linked"><a href="https://www.oracle.com/applications/" data-lbl="o-products-menu-applications"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云应用</font></font></a></h3>
+						<ul>					
+							<li><a href="https://www.oracle.com/applications/erp/" data-lbl="o-products-menu-applications-erp"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业资源规划</font></font></a></li>
+							<li><a href="https://www.oracle.com/applications/performance-management/" data-lbl="o-products-menu-applications-epm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业绩效管理</font></font></a></li>
+							<li><a href="https://www.oracle.com/applications/supply-chain-management/" data-lbl="o-products-menu-applications-scm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">供应链与制造</font></font></a></li>
+							<li><a href="https://www.oracle.com/human-capital-management/" data-lbl="o-products-menu-applications-hcm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人力资本管理</font></font></a></li>							
+							<li><a href="https://www.oracle.com/cx/" data-lbl="o-products-menu-applications-customer-experience-cx"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">客户体验（CX） </font></font></a></li>
+							<li><a href="https://www.oracle.com/data-cloud/" data-lbl="o-products-menu-applications-data-cloud"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据云</font></font></a></li>
+						</ul></li>
+					<li><h3 class="icn-netsuite u28linked"><a href="http://www.netsuite.com/portal/home.shtml" data-lbl="o-products-menu-applications-netsuite"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NetSuite</font></font></a></h3></li>
+					<li><h3 class="icn-desktop u28linked"><a href="https://www.oracle.com/applications/on-premise-products/" data-lbl="o-products-menu-applications-on-prem"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本地应用</font></font></a></h3></li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li><h3 class="icn-industry u28linked"><a href="https://www.oracle.com/industries/" data-lbl="o-products-menu-industry-apps"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行业应用</font></font></a></h3>
+						<ul>
+							<li><a href="https://www.oracle.com/industries/financial-services/" data-lbl="o-products-menu-industry-apps-fin-svces"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">银行与保险</font></font></a></li>
+							<li><a href="https://www.oracle.com/industries/communications/" data-lbl="o-products-menu-industry-apps-communications"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通讯技术</font></font></a></li>
+							<li><a href="https://www.oracle.com/industries/construction-engineering/" data-lbl="o-products-menu-industry-apps-const-eng"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建筑工程</font></font></a></li>
+							<li><a href="https://www.oracle.com/industries/food-beverage/" data-lbl="o-products-menu-industry-apps-food-bev"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">食物和饮料</font></font></a></li>
+							<li><a href="https://www.oracle.com/industries/healthcare/" data-lbl="o-products-menu-industry-apps-healthcare"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">卫生保健</font></font></a></li>
+							<li><a href="https://www.oracle.com/industries/hospitality/" data-lbl="o-products-menu-industry-apps-hospitality"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">款待</font></font></a></li>
+							<li><a href="https://www.oracle.com/industries/life-sciences/" data-lbl="o-products-menu-industry-apps-lifesciences"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生命科学</font></font></a></li>
+							<!--<li><a href="/applications/supply-chain-management/manufacturing/" data-lbl="o-products-menu-industry-apps-manufacturing">Manufacturing</a></li>-->
+							<li><a href="https://www.oracle.com/industries/public-sector/" data-lbl="o-products-menu-industry-apps-public-sector"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">公共部门</font></font></a></li>
+							<li><a href="https://www.oracle.com/industries/retail/" data-lbl="o-products-menu-industry-apps-retail"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">零售</font></font></a></li>
+							<li><a href="https://www.oracle.com/industries/utilities/" data-lbl="o-products-menu-industry-apps-utilities"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实用工具</font></font></a></li>
+							
+						</ul>
+						
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<!--Resources-->
+	<h2 class="rw-ptitle">Resources</h2>
+
+	<div class="u28navw2 u28fourclm u28clm" data-type="resources" style="display: none;">
+		<div>
+			<ul>
+				<li><h3 class="icn-oracle-o u28linked"><a href="https://www.oracle.com/corporate/" data-lbl="o-resources-menu-about-corp"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于甲骨文</font></font></a></h3>
+					<ul>
+						<li><a href="https://www.oracle.com/corporate/analyst-reports.html" data-lbl="o-resources-menu-about-corp-analyst-reports"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析师报告</font></font></a></li>
+						<li><a href="https://www.oracle.com/corporate/doing-business.html" data-lbl="o-resources-menu-about-corp-biz-practices-doing-business"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商业实务</font></font></a></li>
+						<li><a href="https://www.oracle.com/corporate/citizenship/" data-lbl="o-resources-menu-about-corp-respon-citizenship"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业责任</font></font></a></li>
+						<li><a href="https://www.oracle.com/corporate/security-practices/" data-lbl="o-resources-menu-about-corp-security-practices"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业安全实践</font></font></a></li>
+						<li><a href="https://www.oracle.com/customers/" data-lbl="o-resources-menu-about-corp-cust-references"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">客户参考</font></font></a></li>
+						<li><a href="https://www.oracle.com/corporate/careers/culture/diversity.html" data-lbl="o-resources-menu-about-corp-diversity-inclusion"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多元化和包容性</font></font></a></li>
+						<li><a href="https://investor.oracle.com/home/default.aspx" data-lbl="o-resources-menu-about-corp-investor-rels"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">投资者关系</font></font></a></li>
+						<li><a href="https://www.oracle.com/corporate/covid-19.html" data-lbl="o-resources-menu-about-covid"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">甲骨文对COVID-19的回应</font></font></a></li>
+					</ul>
+				</li>
+				<li><h3 class="icn-star u28linked"><a href="https://www.oracle.com/corporate/careers/" data-lbl="o-resources-menu-careers"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">招贤纳士</font></font></a></h3></li>
+				<li><h3 class="icn-custom-events u28linked"><a href="https://www.oracle.com/events/" data-lbl="o-resources-menu-events"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大事记</font></font></a></h3></li>
+				<li><h3 class="icn-contact-card u28linked"><a href="https://www.oracle.com/news/" data-lbl="o-resources-menu-news"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新闻</font></font></a></h3></li>
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li><h3 class="icn-blogger u28linked"><a href="https://blogs.oracle.com/" data-lbl="o-resources-menu-blogs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网志</font></font></a></h3></li>
+				<li><h3 class="icn-buy u28linked"><a href="https://shop.oracle.com/" data-lbl="o-resources-menu-buy-renew-store"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在线购买和续订</font></font></a></h3></li>
+				<li><h3 class="icn-comment u28linked"><a href="https://community.oracle.com/welcome" data-lbl="o-resources-menu-comm-forums"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区论坛</font></font></a></h3></li>
+				<li><h3 class="icn-contact u28linked"><a href="https://www.oracle.com/consulting/" data-lbl="o-resources-menu-consulting"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">咨询服务</font></font></a></h3></li>
+				<li><h3 class="icn-file-text u28linked"><a href="https://docs.oracle.com/en/" data-lbl="o-resources-menu-documentation"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文献资料</font></font></a></h3></li>
+				<li><h3 class="icn-loan-request u28linked"><a href="https://www.oracle.com/products/financing/" data-lbl="o-resources-menu-financing"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">理财</font></font></a></h3></li>
+				<li><h3 class="icn-download u28linked"><a href="https://www.oracle.com/downloads/" data-lbl="o-resources-menu-sw-downloads"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件下载</font></font></a></h3></li>
+				<li><h3 class="icn-call-missed-outgoing u28linked"><a href="https://www.oracle.com/support/" data-lbl="o-resources-menu-support-offerings"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持产品</font></font></a></h3></li>
+				<li><h3 class="icn-reverse-direction u28linked"><a href="https://supportrenewals.oracle.com/apex/f?p=supportrenewal:home:0" data-lbl="o-resources-menu-support-renewals"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持续订</font></font></a></h3></li>
+
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li><h3 class="icn-education u28linked"><a href="https://education.oracle.com/" data-lbl="o-resources-menu-univ-education"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">甲骨文大学</font></font></a></h3>
+					<ul>
+						<li><a href="https://education.oracle.com/learning-explorer" data-lbl="o-resources-menu-univ-free-trg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免费培训</font></font></a></li>
+						<li><a href="https://education.oracle.com/oracle-cloud-learning-subscriptions" data-lbl="o-resources-menu-univ-digital-online-trg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数字/在线培训</font></font></a></li>
+						<li><a href="https://education.oracle.com/oracle-cloud-guided-learning" data-lbl="o-resources-menu-univ-guided-learning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引导式学习</font></font></a></li>
+						<li><a href="https://education.oracle.com/certification" data-lbl="o-resources-menu-univ-certification"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资质认证</font></font></a></li>
+					</ul>
+				</li>
+
+				
+				<li><h3 class="icn-thumbs-up u28linked"><a href="https://www.oracle.com/partnernetwork/" data-lbl="o-resources-menu-parternetwork-opn"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">甲骨文合作伙伴网络</font></font></a></h3>
+					<ul>
+						<li><a href="https://www.oracle.com/opn/index.html" data-lbl="o-resources-menu-parternetwork-login"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">登录</font></font></a></li>
+						
+						<li><a href="https://partner-finder.oracle.com/catalog/opn/index.html" data-lbl="o-resources-menu-parternetwork-find-partner"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">寻找合作伙伴</font></font></a></li>
+						<li><a href="https://partnerstore.oracle.com/apex/f?p=pstore:home:0" data-lbl="o-resources-menu-parternetwork-partner-store"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">合作商店</font></font></a></li>
+					</ul>
+				</li>
+				<li><h3 class="icn-code u28linked"><a href="https://developer.oracle.com/" data-lbl="o-resources-menu-developer-center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发人员中心</font></font></a></h3></li>
+
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li><h3 class="icn-cloud u28linked"><a href="https://www.oracle.com/cloud/free/?source=:ow:o:s:nav:062520GlobalNavResources&amp;intcmp=:ow:o:s:nav:062520GlobalNavResources" data-lbl="global-nav-resources:cloud-free-tier"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle云免费套餐</font></font></a></h3></li>
+				<li><h3 class="icn-office u28linked"><a href="https://www.oracle.com/cloud/architecture-center.html" data-lbl="o-resources-menu-cloud-arch-center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云架构</font></font></a></h3></li>
+				<li><h3 class="icn-file-doc u28linked"><a href="https://www.oracle.com/corporate/invoicing/" data-lbl="o-resources-menu-corporate-invoicing"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云发票</font></font></a></h3></li>
+				<li><h3 class="icn-cart-empty u28linked"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/homePage.jspx" data-lbl="o-resources-menu-cloud-marketplace"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云市场</font></font></a></h3></li>
+				<li><h3 class="icn-check-square u28linked"><a href="https://www.oracle.com/readiness/" data-lbl="o-resources-menu-cloud-readiness-updates"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云就绪更新</font></font></a></h3></li>
+				<li><h3 class="icn-shield-trusted u28linked"><a href="https://www.oracle.com/corporate/security-practices/cloud/" data-lbl="o-resources-menu-cloud-security-practices"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云安全实践</font></font></a></h3></li>
+				<li><h3 class="icn-arrow-alt-up u28linked"><a href="https://www.oracle.com/startup/" data-lbl="o-resources-menu-startups"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于初创企业的Oracle</font></font></a></h3></li>
+				<li><h3 class="icn-bank u28linked"><a href="https://academy.oracle.com/en/oa-web-overview.html" data-lbl="o-resources-menu-students-educators"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于学生和教育者</font></font></a></h3></li>
+			</ul>
+		</div>
+	</div>
+
+	
+	<!--Support-->
+	<h2 class="rw-ptitle">Support</h2>
+	<div class="u28navw2 u28fourclm u28clm" data-type="support" style="display: none;">
+		<div>
+			<ul>
+				<li><h3 class="icn-laptop u28linked"><a href="https://support.oracle.com/" data-lbl="o-support-menu-support-portal-login"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的Oracle支持登录</font></font></a></h3>
+					<ul>
+						<li><a href="https://support.oracle.mobi/" data-lbl="o-support-menu-mobile-my-oracle-support"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">手机登录</font></font></a></li>
+						<li><a href="https://www.oracle.com/support/contact.html" data-lbl="o-support-menu-contact-oracle-support"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系Oracle支持</font></font></a></li>
+						<li><a href="https://supportrenewals.oracle.com/" data-lbl="o-support-menu-my-support-renewals"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的支持续订</font></font></a></li>
+					</ul>
+				</li>
+
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li><h3 class="icn-information u28linked"><a href="https://www.oracle.com/support/" data-lbl="o-support-menu-about-support-services"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于支持服务</font></font></a></h3>
+					<ul>
+						<li><a href="https://www.oracle.com/support/premier/" data-lbl="o-support-menu-about-support-premier"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle Premier支持</font></font></a></li>
+						<li><a href="https://www.oracle.com/support/premier/best-practices.html" data-lbl="o-support-menu-about-support-proactive"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主动支持计划</font></font></a></li>
+						<li><a href="https://www.oracle.com/support/saas-services/" data-lbl="o-support-menu-about-support-saas"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle SaaS支持服务</font></font></a></li>
+						
+						<li><a href="https://www.oracle.com/support/advanced-customer-services/" data-lbl="o-support-menu-about-support-advanced"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">先进的客户服务</font></font></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		<div>
+			<ul>
+				<li><h3 class="icn-forum u28linked"><a href="https://community.oracle.com/welcome" data-lbl="o-support-menu-communities-welcome-heading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></a></h3>
+					<ul>
+						<li><a href="https://community.oracle.com/community/support" data-lbl="o-support-menu-communities-my-oracle-support"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我的Oracle支持社区</font></font></a></li>
+						<li><a href="https://cloudcustomerconnect.oracle.com/pages/home" data-lbl="o-support-menu-communities-cloud-cust-connect"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云客户连接</font></font></a></li>
+						<li><a href="https://community.oracle.com/community/groundbreakers" data-lbl="o-support-menu-communities-developer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发者</font></font></a></li>
+						<li><a href="https://community.oracle.com/community/usergroups" data-lbl="o-support-menu-communities-user-groups"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle用户组</font></font></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li><h3 class="icn-settlement u28linked"><a href="https://www.oracle.com/support/lifetime-support/" data-lbl="o-support-menu-lifetime-support"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">终身支持政策</font></font></a></h3>
+					<ul>
+						<li><a href="https://www.oracle.com/support/policies.html" data-lbl="o-support-menu-tech-support-policies"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术支持政策</font></font></a></li>
+						<li><a href="https://www.oracle.com/security-alerts/" data-lbl="o-support-menu-critical-patch-updates"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重要补丁更新</font></font></a></li>
+						<li><a href="https://docs.oracle.com/en/" data-lbl="o-support-menu-documentation"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文献资料</font></font></a></li>
+						<li><a href="https://www.oracle.com/downloads/" data-lbl="o-support-menu-sw-downloads"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件下载</font></font></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<!--Events-->
+	<h2 class="rw-ptitle">Events</h2>
+	<div class="u28navw2 u28fourclm u28clm" data-type="events" style="display: none;">
+		<div>
+			<ul>
+				<li><h3 class="icn-slideshow" data-lbl="o-events-menu-virtual-summits-overview"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle云虚拟峰会</font></font></h3>
+
+					<a href="https://www.oracle.com/events/virtual-summits/cloud-cx/?source=:ow:o:h:po::1029summitocom&amp;intcmp=:ow:o:h:po::1029summitocom" data-lbl="o-events-menu-cx-summits"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云CX</font></font></a>
+					<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入有远见的专家，专家和客户，他们在这一系列1-2小时的活动中分享有关最新CX解决方案的见解。</font></font></p>
+
+					<a href="https://www.oracle.com/events/virtual-summits/cloud-erp/?source=:ow:evp:cpo:::OcomT1EventIndex&amp;intcmp=:ow:evp:cpo:::OcomT1EventIndex" data-lbl="o-events-menu-erp-summits"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云ERP</font></font></a>
+					<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这一系列的1-2小时活动中，聆听行业专家和客户分享ERP，EPM和SCM最佳实践的经验。</font></font></p>
+
+					<a href="https://www.oracle.com/events/virtual-summits/cloud-hcm/?source=:ow:evp:cpo:::OcomT1EventIndex&amp;intcmp=:ow:evp:cpo:::OcomT1EventIndex" data-lbl="o-events-menu-hcm-summits"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云HCM</font></font></a>
+					<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这一系列1-2小时的活动中，体验HR技术解决方案的最佳实践和客户成功。</font></font></p>
+					
+					<a href="https://www.oracle.com/cloudplatform/?source=:ow:o:h:nav::RC_WWMK200730P00159:Ocom_DropDownNav_Events_CP&amp;intcmp=:ow:o:h:nav::RC_WWMK200730P00159:Ocom_DropDownNav_Events_CP" data-lbl="o-events-menu-cloud-platform"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云平台</font></font></a>
+					<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这些1-2小时的活动中，通过最佳实践和客户示例探索现代技术解决方案。</font></font></p>
+
+
+				</li>
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li><h3 class="icn-live-virtual-class u28linked"><a href="https://www.oracle.com/events/live/?source=:ow:o:h:nav::OracleLiveSeries_OcomHomepageDropdown&amp;intcmp=:ow:o:h:nav::OracleLiveSeries_OcomHomepageDropdown" data-lbl="o-events-menu-oracle-live"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle Live</font></font></a></h3>
+					<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这60分钟或更短的公告活动中了解新产品以及使用它们的一些客户。</font></font></p>
+				</li>
+				<li><h3 class="icn-flashlight u28linked"><a href="https://www.oracle.com/events/customer-spotlight/?source=:ow:evp:cpo:::OcomT1EventIndex&amp;intcmp=:ow:evp:cpo:::OcomT1EventIndex" data-lbl="o-events-menu-customer-spotlight"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle客户聚焦</font></font></a></h3>
+					<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">聆听与依靠Oracle Cloud帮助转变业务的客户主管的坦率对话。</font></font></p>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li><h3 class="icn-developer u28linked"><a href="https://developer.oracle.com/developer-live/?source=:ow:o:h:nav::DevLiveSeries_OcomHomepageEventsDropdown&amp;intcmp=:ow:o:h:nav::DevLiveSeries_OcomHomepageEventsDropdown" data-lbl="o-events-menu-developer-live"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle开发人员直播</font></font></a></h3>
+					<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加速您的应用程序开发，并与专家一起参加技术会议，动手实验，演示，小组讨论和实时问答。</font></font></p>
+				</li>
+				<li class="darktheme u28dropsrch">
+					<h3 class="icn-search"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找不到您想要的东西？</font><font style="vertical-align: inherit;">搜索所有Oracle事件。</font></font></h3>
+					<div class="obttns">
+						<div class="obttn1">
+							<a href="https://www.oracle.com/search/events/?xd_co_f=NDRlYmNlZDQtNDE5YS00MjM5LWI2YjEtZmFhMjc2M2RiYjUx" data-lbl="o-events-menu-search-all"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">搜索所有事件</font></font></a>
+						</div>
+					</div>
+
+				</li>
+			</ul>
+		</div>
+		<div>
+			<div class="u28a1 darktheme" data-u28bgsrc="/a/ocom/img/u28-bgimg-oracle-live.jpg" style="background-image: url(&quot;/a/ocom/img/u28-bgimg-oracle-live.jpg&quot;);">
+				<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拉里·埃里森与CX的未来</font></font></h3>
+				
+				<div class="obttns">
+					<div class="obttn1">
+						<a href="https://www.oracle.com/events/virtual-summits/cloud-cx/?source=:ow:o:h:po::1029summitocom&amp;intcmp=:ow:o:h:po::1029summitocom" data-lbl="menu:o-events-menu-feature-future-cx-lje-register-now"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在注册</font></font></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div></nav>
+
+</section>
+<!-- /U28v1 -->
+
+
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+					<!-- newsroomPageId = 4001341657172 -->
+					<!-- start : press/oce/global/components/u03v6-breadcrumb -->
+<!-- U03v6 -->
+<nav class="u03 u03v6" data-trackas="breadcrumb" data-ocomid="u03">
+	<div class="cwidth">
+		<div class="u03w1">
+			<ul>
+				
+						<li><a href="https://www.oracle.com/news/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle News Connect</font></font></a></li>
+						
+			</ul>
+		</div>
+	</div>
+	
+		<script type="text/javascript">
+		var pageData = pageData || {};
+		//page info
+		pageData.pageInfo = pageData.pageInfo || {};
+		pageData.pageInfo.breadCrumbs = " / Oracle News Connect";
+	</script>
+	
+	<script type="application/ld+json">
+	{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement":
+	  [
+		{ "@type": "ListItem", "position": 1, "name": "Oracle News Connect", "item": "https://www.oracle.com/news/" }
+	  ]
+	}
+	</script>
+	
+</nav>
+<!-- /U03v6 -->
+	<!-- end : press/oce/global/components/u03v6-breadcrumb -->
+
+				
+
+				<!-- RC23v0 -->
+				<section class="rc23 rc23v0 neutral-180 bgpattern-graphic1w-5p bgimg" style="background-image: url(&quot;https://www.oracle.com/a/pr/img/rc23-fpo-01.jpg&quot;);">
+					<div class="rc23w1">
+
+				<!-- RC25v0 -->
+				<section class="rc25 rc25v0 cpad">
+					<div class="rc25w1 cwidth">
+						<span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新闻稿</font></font></span>
+						<h2 class="rwaccent-3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">甲骨文宣布Java 15</font></font></h2>
+						<div class="rc25subtitle">
+							<p></p><ul class="obullets">
+	<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java 15添加了新功能以提高开发人员的工作效率和安全性，其中包括Edwards-Curve数字签名算法（JEP 339）和隐藏类（JEP 371）</font></font></li>
+	<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文本块（JEP 378）和ZGC（JEP 377）已在此发行版中完成</font></font></li>
+	<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含密封类（JEP 360）作为新的预览功能，并添加了instanceof（JEP 375）和记录（JEP 384）的模式匹配作为第二个预览，以进一步征询开发人员的意见</font></font></li>
+</ul>
+<p></p>
+							<strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加利福尼亚州红木海岸-2020年9月15日</font></font></strong>
+						</div>
+	   			    		
+							<div class="rc25social">
+								<ul>
+								
+								<li><a class="sharelink icn-img icn-facebook o-hf" data-sharetype="facebook" title="在脸书上分享"></a></li>
+								<li><a class="sharelink icn-img icn-twitter" data-sharetype="twitter" title="分享到Twitter"></a></li>
+								
+								<li><a class="sharelink icn-img icn-linkedin" data-sharetype="linked-in" title="在领英上分享"></a></li>
+								<li><a class="sharelink icn-img icn-send" data-sharetype="email" title="在电子邮件中分享"></a></li>
+								</ul>
+							</div>
+						
+					</div>
+				</section>
+				<!-- /RC25v0 -->
+
+				<!-- RC24v0 -->
+<section class="rc24 rc24v0 cpad">
+<div class="rc24w1 cwidth">
+<div class="rc24w2">
+<figure class="rc24inline-rt"><img alt="Java徽标" src="./甲骨文宣布Java15_files/rc24-java-25yrs.gif"></figure>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle今天宣布了Java 15（Oracle JDK 15）的全面上市。</font><font style="vertical-align: inherit;">经过25年的创新，Java仍然是排名第一的编程语言，全球69％以上的专职开发人员使用Java。</font><font style="vertical-align: inherit;">最新的Java开发套件（JDK）提供了新功能，包括Edwards-Curve数字签名算法（JEP 339）和隐藏类（JEP 371），以及现已定稿的以前的预览功能：文本块（JEP 378）和ZGC（JEP 377）。</font><font style="vertical-align: inherit;">Java 15包括密封类（JEP 360）作为第一次预览功能，而模式匹配（JEP 375）和记录（JEP 384）的第二次预览提供了更多社区反馈。</font></font><a href="http://www.oracle.com/java" class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">立即开始使用Java 15</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle按照2018年与Java 10首次建立的为期六个月的Java发布节奏按时交付了Java15。六个月的发布计划为开发人员提供了更快的创新以及更好的可预测性和稳定性。</font><font style="vertical-align: inherit;">Java遍及各种规模和所有行业的组织中。</font><font style="vertical-align: inherit;">随着</font></font><a href="https://blogs.oracle.com/java/java-in-2020"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">51级十亿全球部署积极的JVM</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Java是现代企业应用程序的开发，包括分析，微服务，数据管理，社会，大数据，DevOps的，移动的，不断发展的工具，以及聊天机器人的首选。</font></font></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“ Java庆祝成立25周年之际，我们将继续进行技术投资，以推动Java创新向前发展，并帮助应对瞬息万变的技术格局，” Oracle Java Platform Group开发副总裁Georges Saab说。</font><font style="vertical-align: inherit;">“ Java 15的可用性以及向六个月发布节奏的转变所带来的增量创新，为Java社区提供了构建现代应用程序所需的工具，这些应用程序可以推动我们的世界前进。”</font></font></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://blogs.oracle.com/java-platform-group/the-arrival-of-java-15"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java的15版本</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是全行业的发展，涉及公开审查结果，每周建立并通过Oracle的工程师和全世界的Java开发人员社区的成员之间的广泛合作</font></font><a href="http://openjdk.java.net/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的OpenJDK社区</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和Java社区进程。</font><font style="vertical-align: inherit;">Java 15中提供的新功能包括：</font></font></p>
+
+<ul class="obullets">
+	<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">新功能：</font></font></strong>
+
+	<ul class="obullets" style="margin-left: 40px;">
+		<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JEP 339：</font></font><a href="https://openjdk.java.net/jeps/339"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">爱德华兹曲线数字签名算法（EdDSA）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> –此功能通过使用</font></font><a href="https://tools.ietf.org/html/rfc8032"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RFC 8032</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所述的EdDSA实施加密签名来提高安全性和性能</font><font style="vertical-align: inherit;">。</font></font></li>
+		<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JEP 371：</font></font><a href="https://openjdk.java.net/jeps/371"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐藏类</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">–此功能通过改进Java与运行时生成类并通过反射间接使用类的框架的配合使用，从而提高了生产率。</font></font></li>
+	</ul>
+	</li>
+	<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预览功能现已完成：</font></font></strong>
+	<ul class="obullets" style="margin-left: 40px;">
+		<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JEP 378：</font></font><a href="https://openjdk.java.net/jeps/378"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文本块</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">–此功能是JDK 13和JDK 14中的预览功能，它通过添加多行字符串文字并以可预测的方式自动格式化字符串来提高开发人员的生产率。</font></font></li>
+		<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JEP 377：</font></font><a href="https://openjdk.java.net/jeps/377"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ZGC</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> –这种可扩展的，低延迟的垃圾收集器在JDK 11中作为实验功能引入后投入生产。</font></font></li>
+	</ul>
+	</li>
+	<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">孵化和预览功能：</font></font></strong>
+	<ul class="obullets" style="margin-left: 40px;">
+		<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JEP 360：</font></font><a href="https://openjdk.java.net/jeps/360"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">密封类</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">–此预览功能通过使用密封类和接口增强Java编程语言来提高开发人员的生产率。</font><font style="vertical-align: inherit;">密封的类和接口限制可以扩展或实现它们的其他类或接口。</font></font></li>
+		<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JEP 375：</font></font><a href="https://openjdk.java.net/jeps/375"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于instanceof的模式匹配</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">–此预览功能是JDK 14中首次引入的，它消除了对通用样板代码的需要，从而提高了开发人员的工作效率，并且应允许使用更简洁的类型安全代码。</font></font></li>
+		<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JEP 384：</font></font><a href="https://openjdk.java.net/jeps/384"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">记录</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">–该预览功能是JDK 14中首次引入的，它通过提供用于声明包含浅层不变数据的类的紧凑语法来提高开发人员的生产率。&nbsp;</font></font></li>
+		<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JEP 383：</font></font><a href="https://openjdk.java.net/jeps/383"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">外部存储器访问API</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> –此孵化功能是JDK 14中首次引入的，它定义了一个API，以允许Java程序安全有效地访问Java堆外部的外部存储器。</font></font></li>
+	</ul>
+	</li>
+	<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现代化现有代码：</font></font></strong>
+	<ul class="obullets" style="margin-left: 40px;">
+		<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JEP 373：</font></font><a href="https://openjdk.java.net/jeps/373"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">旧数据报套接字和MulticastSocket API的重新实现</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">–此功能通过用更简单，更现代的实现替换java.net.DatagramSocket和java.net.MulticastSocket API的基础实现，提高了JDK的可维护性和稳定性。</font></font></li>
+	</ul>
+	</li>
+	<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">清理：</font></font></strong>
+	<ul class="obullets" style="margin-left: 40px;">
+		<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与以前的功能版本一样，JDK 15弃用了过时的功能（JEP 374：</font></font><a href="https://openjdk.java.net/jeps/374"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">偏置锁定</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，JEP 385：</font></font><a href="https://openjdk.java.net/jeps/385"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RMI激活</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">），并删除了以前不建议使用的功能（JEP 372：</font></font><a href="https://openjdk.java.net/jeps/372"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nashorn JavaScript Engine</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）和端口（JEP 381：</font></font><a href="https://openjdk.java.net/jeps/381"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Solaris和Sparc</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></li>
+	</ul>
+	</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- RC24v0 --><!-- RC24v0 -->
+
+<section class="rc24 rc24v0 cpad">
+<div class="rc24w1 cwidth">
+<h2 class="rw-ptitle"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">管理Java</font></font></h2>
+
+<p><font style="vertical-align: inherit;"></font><a href="https://www.oracle.com/java/moved-by-java/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已有</font><a href="https://www.oracle.com/java/moved-by-java/"><font style="vertical-align: inherit;">25年历史的</font></a><font style="vertical-align: inherit;">一个重要里程碑</font><font style="vertical-align: inherit;">是JDK 10，该版本已过渡到六个月的功能发布节奏。</font><font style="vertical-align: inherit;">新的可预测的发布节奏使Java生态系统的创新步伐比以前快得多。</font><font style="vertical-align: inherit;">通过利用</font></font><a href="https://www.oracle.com/java/java-se-subscription.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle Java SE订阅</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来管理Java资产的组织</font><font style="vertical-align: inherit;">不仅可以受益于</font><a href="https://www.oracle.com/java/java-se-subscription.html"><font style="vertical-align: inherit;">Oracle</font></a><font style="vertical-align: inherit;">的最新增强功能和对Java专家的直接访问，还可以在四年的时间里节省大量费用（</font></font><a href="https://www.oracle.com/a/ocom/resources/the-next-decade-of-java-(2).pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大型企业为31％</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://www.oracle.com/a/ocom/resources/java_for_mid-size_enterprises.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">29％与中型企业</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每六个月升级的替代方法相比）。</font></font></p>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://www.oracle.com/a/ocom/docs/corporate/analystrelations/omdia-java-turns-25.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java 25岁时</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Omdia研究报告的首席分析师Bradley Shimmin指出：“由于Oracle用Java重写了大量内部软件并使Java成为Oracle数据库和Oracle云基础架构的关键组件，因此Java和Oracle的成功无可避免地交织在一起。对于数以百万计的依赖Java来驱动关键任务软件的企业而言，这同样适用。对于Oracle，这扩展到了公司向云的推动力。由于众多语言专用工具和丰富的支持服务，Oracle Cloud Infrastructure是最好的运行企业Java代码的位置。” </font><font style="vertical-align: inherit;">他接着说：“正如多行文本块和高级开关语句等功能的引入所证明的那样，Oracle优先考虑了'开发人员的经验，</font></font></p>
+</div>
+</section>
+<!-- RC24v0 --><!-- RC24v0 -->
+
+<section class="rc24 rc24v0 cpad">
+<div class="rc24w1 cwidth">
+<h2 class="rw-ptitle"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他资源</font></font></h2>
+
+<ul class="obullets">
+	<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读</font></font><a href="https://blogs.oracle.com/java-platform-group/the-arrival-of-java-15"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java 15技术博客</font></font></a></li>
+	<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解有关</font></font><a href="https://jdk.java.net/15/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle OpenJDK 15 General Availability版本的更多信息</font></font></a></li>
+	<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解有关</font><a href="https://www.oracle.com/a/tech/docs/javase-subscription-datasheet.pdf"><font style="vertical-align: inherit;">Oracle Java SE订阅的</font></a><font style="vertical-align: inherit;">更多信息</font></font><a href="https://www.oracle.com/a/tech/docs/javase-subscription-datasheet.pdf"><font style="vertical-align: inherit;"></font></a></li>
+	<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读</font></font><a href="https://blogs.oracle.com/java/java-in-2020"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2020年Java</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></li>
+	<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">收听</font></font><a href="https://inside.java/podcast"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java 15</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">播客</font></font></li>
+</ul>
+</div>
+</section>
+<!-- RC24v0 -->
+				<!-- RC26v0 -->
+				<section class="rc26 rc26v0 cpad">
+					<div class="rc26w1 cwidth">
+						<h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联络资料</font></font></h2>
+						<div class="col-framework col-multi col2 col-gutters inview">
+							<div class="col-w1">
+								
+										<div class="col-item">
+											
+											<div class="col-item-w2">
+												<ul>
+													<li><h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特拉维斯·安德森（Travis Anderson）</font></font></h4></li>
+													<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">甲骨文公关</font></font></li>
+													<li><a href="mailto:travis.j.anderson@oracle.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">travis.j.anderson@oracle.com</font></font></a></li>
+													<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+1.208.880.8134</font></font></li>
+												</ul>
+											</div>
+										</div>
+								
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- /RC26v0 -->
+				<!-- RC24v0 -->
+<section class="rc24 rc24v0 cpad">
+<div class="rc24w1 cwidth">
+<h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于甲骨文</font></font></h2>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle云为销售，服务，营销，人力资源，财务，供应链和制造提供了一套完整的集成应用程序，以及具有Oracle自治数据库的高度自动化和安全的第二代基础架构。</font><font style="vertical-align: inherit;">有关Oracle（NYSE：ORCL）的更多信息，请访问我们的网站</font></font><a href="https://www.oracle.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">www.oracle.com。</font></font></a></p>
+</div>
+</section>
+<!-- /RC24v0 --><!-- RC24v0 -->
+
+<section class="rc24 rc24v0 cpad">
+<div class="rc24w1 cwidth">
+<h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商标</font></font></h2>
+
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle和Java是Oracle和/或其分支机构的注册商标。</font><font style="vertical-align: inherit;">其他名称可能是其各自所有者的商标。</font></font></p>
+</div>
+</section>
+<!-- /RC24v0 -->
+
+					</div>
+				</section>
+				<!-- /RC23v0 -->
+
+				
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- U10v0 -->
+<div class="u10 u10v6" data-trackas="ffooter" data-ocomid="u10">
+	<div class="u10w1">
+		
+<div class="u10w2">
+<div class="u10w3">
+<h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的资源</font></font></h5>
+<ul>
+<li><a data-lbl="resources-for:developers" href="https://developer.oracle.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发者</font></font></a></li>
+<li><a data-lbl="resources-for:startups" href="https://www.oracle.com/startup/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">初创企业</font></font></a></li>
+<li><a data-lbl="resources-for:students-educators" href="https://academy.oracle.com/en/oa-web-overview.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">学生和教育者</font></font></a></li>
+</ul>
+<a class="u10btn"></a></div>
+</div>
+
+<div class="u10w2">
+<div class="u10w3">
+<h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">伙伴</font></font></h5>
+<ul>
+<li><a data-lbl="partners:oracle-partnernetwork-ocom" href="https://www.oracle.com/partnernetwork/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">甲骨文合作伙伴网络</font></font></a></li>
+<li><a data-lbl="partners:find-a-partner" href="https://partner-finder.oracle.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">寻找合作伙伴</font></font></a></li>
+<li><a data-lbl="partners:login-opn" href="https://www.oracle.com/opn/index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">登录OPN</font></font></a></li>
+</ul>
+<a class="u10btn"></a></div>
+</div>	
+
+<div class="u10w2">
+<div class="u10w3">
+<h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决方案</font></font></h5>
+<ul>
+<li><a data-lbl="emerging-technlogy:artificial-intelligence" href="https://www.oracle.com/artificial-intelligence/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人工智能</font></font></a></li>
+<li><a data-lbl="emerging-technlogy:internet-of-things" href="https://www.oracle.com/internet-of-things/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">物联网</font></font></a></li>
+<li><a data-lbl="emerging-technlogy:blockchain" href="https://www.oracle.com/blockchain/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">区块链</font></font></a></li>
+</ul>
+<a class="u10btn"></a></div>
+</div>
+
+<div class="u10w2">
+<div class="u10w3">
+<h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是新的</font></font></h5>
+<ul>
+<li><a data-lbl="whatsnew:covid-19-1002-research" href="https://www.oracle.com/corporate/covid-19/research/?source=:ow:off:ot:::GFooter100220&amp;intcmp=:ow:off:ot:::GFooter100220" data-cxdtrack=":ow:off:ot:::GFooter100220" data-adbtrack=":ow:off:ot:::GFooter100220"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们如何应对COVID-19</font></font></a></li>
+<li><a data-lbl="whatsnew:java-SE-downloads" href="https://www.oracle.com/java/technologies/javase-downloads.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java SE下载</font></font></a></li>
+<li><a data-lbl="whatsnew:cloud-trial" href="https://www.oracle.com/cloud/free/?source=:ow:o:h:nav:050120SiteFooter&amp;intcmp=:ow:o:h:nav:050120SiteFooter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">试用Oracle Cloud Free Tier</font></font></a></li>
+
+
+</ul>
+<a class="u10btn"></a></div>
+</div>
+
+
+<div class="u10w2">
+<div class="u10w3">
+<h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系我们</font></font></h5>
+<ul>
+<li><a href="tel:18006330738"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">美国销售：+1.800.633.0738</font></font></a></li>
+<li><a data-lbl="contact-us:how-can-we-help" href="https://www.oracle.com/corporate/contact/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们能帮你什么吗？</font></font></a></li>
+<!--<li><a data-lbl="contact-us:support-directory" href="/support/contact.html">Support Directory</a></li>-->
+<li><a data-lbl="contact-us:subscribe-to-emails" href="https://go.oracle.com/subscriptions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">订阅电子邮件</font></font></a></li>
+</ul>
+<a class="u10btn" aria-owns="u10cmenu"></a></div>
+</div>
+
+<div class="u10w4">
+<hr>
+</div>
+<div class="u10w5" data-trackas="footer">
+<ul class="scl-icons" id="scl-icons">
+<li class="scl-facebook"><a data-lbl="scl-icon:facebook" href="https://www.facebook.com/Oracle/" title="甲骨文在Facebook上"> </a></li>
+<li class="scl-twitter"><a data-lbl="scl-icon:twitter" href="https://twitter.com/oracle" title="在Twitter上关注Oracle"> </a></li>
+<li class="scl-linkedin"><a data-lbl="scl-icon:linkedin" href="https://www.linkedin.com/company/oracle/" title="甲骨文在LinkedIn上"> </a></li>
+<li class="scl-youtube"><a data-lbl="scl-icon:you-tube" href="http://www.youtube.com/oracle/" title="在YouTube上观看Oracle"> </a></li>
+</ul>
+
+<div class="u10-ologo"><a data-lbl="integrated-cloud-applications-and-platform-services" href="https://www.oracle.com/">Oracle</a></div>
+<h3>Integrated Cloud Applications &amp; Platform Services</h3>
+
+<ul class="u10-links">
+<li><a data-lbl="copyright" href="https://www.oracle.com/legal/copyright.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">©2020 Oracle</font></font></a></li>
+<li><a data-lbl="site-map" href="https://www.oracle.com/sitemap.html" id="u10footer1" aria-owns="u10footer2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站地图</font></font></a></li>
+<li><a data-lbl="privacy" href="https://www.oracle.com/legal/privacy/" id="u10footer2" aria-owns="u10footer3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">隐私权</font></font></a><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/</font></font></span><a data-lbl="do-not-sell-my-info" href="https://www.oracle.com/legal/privacy/privacy-choices.html" id="u10footer3" aria-owns="u10footerlast"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不出售我的信息</font></font></a></li>
+<li class="u10mtool" id="u10cmenu" aria-owns="u10footer1"><a data-lbl="country-region" class="u10ticon u10regn uu10ooverride" href="https://www.oracle.com/news/announcement/oracle-announces-java-15-091520.html#u10countrymenu"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">国家/地区</font></font></a><div class="u10menupop u10toolpop"><div id="u10countrymenu">
+		<div class="u10countrymenu" data-lbl="country" role="tree">
+			<ul class="u10cmenu-l1" style="height: 287px;"><li class="u10pttl-li"><h5 class="u10pttl">Country/Region</h5></li>
+				<li class="u10currentcr u10currentdr">
+					<a class="u10clink" role="treeitem" aria-selected="true" aria-expanded="true" aria-labelledby="">Americas</a>
+					<!-- LVL 2 -->
+					<div class="u10cmenu-l2 selected-region" data-lbl="americas" style="height: 287px;">
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="argentina" href="https://www.oracle.com/ar/" role="treeitem">Argentina</a></li>
+							<li><a data-lbl="brasil" href="https://www.oracle.com/br/" role="treeitem">Brasil</a></li>
+							<li><a data-lbl="canada-english" href="https://www.oracle.com/ca-en/" role="treeitem">Canada-English</a></li>
+							<li><a data-lbl="canada-french" href="https://www.oracle.com/ca-fr/" role="treeitem">Canada-Français</a></li>
+							<li><a data-lbl="chile" href="https://www.oracle.com/cl/" role="treeitem">Chile</a></li>
+							<li><a data-lbl="columbia" href="https://www.oracle.com/co/" role="treeitem">Colombia</a></li>
+							<li><a data-lbl="costa-rica" href="https://www.oracle.com/cr/" role="treeitem">Costa Rica</a></li>
+						</ul>
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="latin-america" href="https://www.oracle.com/lad/" role="treeitem">Latinoamérica</a></li>
+							<li><a data-lbl="mexico" href="https://www.oracle.com/mx/" role="treeitem">México</a></li>
+							<li><a data-lbl="peru" href="https://www.oracle.com/pe/" role="treeitem">Perú</a></li>
+							<li><a data-lbl="puerto-rico" href="https://www.oracle.com/pr/" role="treeitem">Puerto Rico</a></li>
+							<li><a class="u10currentcc" data-lbl="united-states" href="https://www.oracle.com/" role="treeitem">United States</a></li>
+							<li><a data-lbl="venezuela" href="https://www.oracle.com/ve/" role="treeitem">Venezuela</a></li>
+						</ul>
+					</div>
+					<!-- / LVL 2 -->
+				</li>
+				<li>
+					<a class="u10clink" role="treeitem" aria-selected="false" aria-expanded="false" aria-labelledby="">Asia Pacific</a>
+					<!-- LVL 2 -->
+					<div class="u10cmenu-l2" data-lbl="asia-pacific">
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="asean" href="https://www.oracle.com/asiasouth" role="treeitem">ASEAN</a></li>
+							<li><a data-lbl="australia" href="https://www.oracle.com/au/" role="treeitem">Australia</a></li>
+							<li><a data-lbl="china" href="https://www.oracle.com/cn/" role="treeitem">中国-简体中文</a></li>
+							<li><a data-lbl="hong-kong" href="https://www.oracle.com/hk/" role="treeitem">Hong Kong SAR, PRC</a></li>
+							<li><a data-lbl="india" href="https://www.oracle.com/in/" role="treeitem">India</a></li>
+							<li><a data-lbl="indonesia" href="https://www.oracle.com/id/" role="treeitem">Indonesia</a></li>
+							<li><a data-lbl="japan" href="https://www.oracle.com/jp/" role="treeitem">日本</a></li>
+							<li><a data-lbl="korea" href="https://www.oracle.com/kr/" role="treeitem">대한민국</a></li>
+							<li><a data-lbl="malaysia" href="https://www.oracle.com/my/" role="treeitem">Malaysia</a></li>
+						</ul>
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="mongolia" href="https://www.oracle.com/mn/" role="treeitem">Mongolia</a></li>
+							<li><a data-lbl="new-zealand" href="https://www.oracle.com/nz/" role="treeitem">New Zealand</a></li>
+							<li><a data-lbl="pakistan" href="https://www.oracle.com/pk/" role="treeitem">Pakistan</a></li>
+							<li><a data-lbl="philippines" href="https://www.oracle.com/ph/" role="treeitem">Philippines</a></li>
+							<li><a data-lbl="singapore" href="https://www.oracle.com/sg/" role="treeitem">Singapore</a></li>
+							<li><a data-lbl="sri-lanka" href="https://www.oracle.com/lk/" role="treeitem">Sri Lanka</a></li>
+							<li><a data-lbl="taiwan" href="https://www.oracle.com/tw/" role="treeitem">台灣-繁體中文</a></li>
+							<li><a data-lbl="thailand" href="https://www.oracle.com/th/" role="treeitem">Thailand</a></li>
+							<li><a data-lbl="vietnam" href="https://www.oracle.com/vn/" role="treeitem">Vietnam</a></li>
+						</ul>
+					</div>
+					<!-- / LVL 2 -->
+				</li>
+				<li>
+					<a class="u10clink" role="treeitem" aria-selected="false" aria-expanded="false" aria-labelledby="">Europe</a>
+					<!-- LVL 2 -->
+					<div class="u10cmenu-l2" data-lbl="europe">
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="austria" href="https://www.oracle.com/at/" role="treeitem">Österreich</a></li>
+							<li><a data-lbl="belgium" href="https://www.oracle.com/be/" role="treeitem">Belgium</a></li>
+							<li><a data-lbl="bosnia-and-herzegovina" href="https://www.oracle.com/ba/" role="treeitem">Bosna i Hercegovina</a></li>
+							<li><a data-lbl="bulgaria" href="https://www.oracle.com/bg/" role="treeitem">Bulgaria</a></li>
+							<li><a data-lbl="croatia" href="https://www.oracle.com/hr/" role="treeitem">Croatia</a></li>
+							<li><a data-lbl="cyprus" href="https://www.oracle.com/cy/" role="treeitem">Cyprus</a></li>
+							<li><a data-lbl="czech-republic" href="https://www.oracle.com/cz/" role="treeitem">Česká Republika</a></li>
+							<li><a data-lbl="denmark" href="https://www.oracle.com/dk/" role="treeitem">Danmark</a></li>
+							<li><a data-lbl="estonia" href="https://www.oracle.com/ee/" role="treeitem">Eesti</a></li>
+							<li><a data-lbl="finland" href="https://www.oracle.com/fi/" role="treeitem">Suomi</a></li>
+							<li><a data-lbl="france" href="https://www.oracle.com/fr/" role="treeitem">France</a></li>
+							<li><a data-lbl="germany" href="https://www.oracle.com/de/" role="treeitem">Deutschland</a></li>
+							<li><a data-lbl="greece" href="https://www.oracle.com/gr/" role="treeitem">Ελλάδα</a></li>
+							<li><a data-lbl="hungary" href="https://www.oracle.com/hu/" role="treeitem">Magyarország</a></li>
+							<li><a data-lbl="ireland" href="https://www.oracle.com/ie/" role="treeitem">Ireland</a></li>
+							<li><a data-lbl="italy" href="https://www.oracle.com/it/" role="treeitem">Italia</a></li>
+							<li><a data-lbl="kazakhstan" href="https://www.oracle.com/ru/" role="treeitem">Казахстан</a></li>
+							<li><a data-lbl="latvia" href="https://www.oracle.com/lv/" role="treeitem">Latvija</a></li>
+							<li><a data-lbl="lithuania" href="https://www.oracle.com/lt/" role="treeitem">Lietuva</a></li>
+						</ul>
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="luxembourg" href="https://www.oracle.com/lu/" role="treeitem">Luxembourg</a></li>
+							<li><a data-lbl="malta" href="https://www.oracle.com/mt/" role="treeitem">Malta</a></li>
+							<li><a data-lbl="netherlands" href="https://www.oracle.com/nl/" role="treeitem">Nederland</a></li>
+							<li><a data-lbl="norway" href="https://www.oracle.com/no/" role="treeitem">Norge</a></li>
+							<li><a data-lbl="poland" href="https://www.oracle.com/pl/" role="treeitem">Polska</a></li>
+							<li><a data-lbl="portugal" href="https://www.oracle.com/pt/" role="treeitem">Portugal</a></li>
+							<li><a data-lbl="romania" href="https://www.oracle.com/ro/" role="treeitem">România</a></li>
+							<li><a data-lbl="russia" href="https://www.oracle.com/ru/" role="treeitem">Россия и СНГ</a></li>
+							<li><a data-lbl="serbia-and-montenegro" href="https://www.oracle.com/rs/" role="treeitem">Srbija i Crna Gora</a></li>
+							<li><a data-lbl="slovakia" href="https://www.oracle.com/sk/" role="treeitem">Slovensko</a></li>
+							<li><a data-lbl="slovena" href="https://www.oracle.com/si/" role="treeitem">Slovenija</a></li>
+							<li><a data-lbl="spain" href="https://www.oracle.com/es/" role="treeitem">España</a></li>
+							<li><a data-lbl="sweden" href="https://www.oracle.com/se/" role="treeitem">Sverige</a></li>
+							<li><a data-lbl="switzerland-french" href="https://www.oracle.com/ch-fr/" role="treeitem">Suisse-Français</a></li>
+							<li><a data-lbl="switzerland-german" href="https://www.oracle.com/ch-de/" role="treeitem">Schweiz-Deutsch</a></li>
+							<li><a data-lbl="turkey" href="https://www.oracle.com/tr/" role="treeitem">Türkiye</a></li>
+							<li><a data-lbl="ukraine" href="https://www.oracle.com/ua/" role="treeitem">Україна</a></li>
+							<li><a data-lbl="united-kingdom" href="https://www.oracle.com/uk/" role="treeitem">United Kingdom</a></li>
+						</ul>
+					</div>
+					<!-- / LVL 2 -->
+				</li>
+				<li>
+					<a class="u10clink" role="treeitem" aria-selected="false" aria-expanded="false" aria-labelledby="">Middle East and Africa</a>
+					<!-- LVL 2 -->
+					<div class="u10cmenu-l2" data-lbl="middle-east-and-africa">
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="africa" href="https://www.oracle.com/africa/" role="treeitem">Africa Region</a></li>
+							<li><a data-lbl="africa-fr" href="https://www.oracle.com/africa-fr/" role="treeitem">Afrique</a></li>
+							<li><a data-lbl="algeria" href="https://www.oracle.com/dz/" role="treeitem">Algéria</a></li>
+							<li><a data-lbl="bahrain" href="https://www.oracle.com/bh/" role="treeitem">Bahrain</a></li>
+							<li><a data-lbl="egypt" href="https://www.oracle.com/eg/" role="treeitem">Egypt</a></li>
+							<li><a data-lbl="ghana" href="https://www.oracle.com/gh/" role="treeitem">Ghana</a></li>
+							<li><a data-lbl="israel" href="https://www.oracle.com/il/" role="treeitem">Israel</a></li>
+							<li><a data-lbl="jordan" href="https://www.oracle.com/jo/" role="treeitem">Jordan</a></li>
+							<li><a data-lbl="kenya" href="https://www.oracle.com/ke/" role="treeitem">Кenya</a></li>
+							<li><a data-lbl="kuwait" href="https://www.oracle.com/kw/" role="treeitem">Kuwait</a></li>
+							<li><a data-lbl="lebanon" href="https://www.oracle.com/lb/" role="treeitem">Lebanon</a></li>
+						</ul>
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="middle-east-arabic" href="https://www.oracle.com/middleeast-ar/" role="treeitem">الشرق الأوسط</a></li>
+							<li><a data-lbl="middle-east-english" href="https://www.oracle.com/middleeast/" role="treeitem">Middle East Region</a></li>
+							<li><a data-lbl="morocco" href="https://www.oracle.com/ma/" role="treeitem">Maroc</a></li>
+							<li><a data-lbl="nigeria" href="https://www.oracle.com/ng/" role="treeitem">Nigeria</a></li>
+							<li><a data-lbl="oman" href="https://www.oracle.com/om/" role="treeitem">Oman</a></li>
+							<li><a data-lbl="qatar" href="https://www.oracle.com/qa/" role="treeitem">Qatar</a></li>
+							<li><a data-lbl="saudi-arabia" href="https://www.oracle.com/sa/" role="treeitem">Saudi Arabia</a></li>
+							<li><a data-lbl="saudi-arabia-arabic" href="https://www.oracle.com/sa-ar/" role="treeitem">المملكة العربية السعودية</a></li>
+							<li><a data-lbl="senegal" href="https://www.oracle.com/sn/" role="treeitem">Sénégal</a></li>
+							<li><a data-lbl="south-africa" href="https://www.oracle.com/za/" role="treeitem">South Africa</a></li>
+							<li><a data-lbl="united-arab-emirates" href="https://www.oracle.com/ae/" role="treeitem">United Arab Emirates</a></li>
+							<li><a data-lbl="united-arab-emirates-arabic" href="https://www.oracle.com/ae-ar/" role="treeitem">الإمارات العربية المتحدة</a></li>
+						</ul>
+					</div>
+					<!-- / LVL 2 -->
+				</li>
+			</ul>
+		</div>
+	</div></div></li>
+<li><div id="teconsent" consent="undefined" aria-label="打开Cookie首选项模式" role="complementary" style="display: block;"><a id="icon-id043127464384970193" tabindex="0" lang="zh" style="cursor: pointer;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cookie喜好设置</font></font></a></div></li>
+<li><a data-lbl="ad-choices" href="https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html#adchoices"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">广告选择</font></font></a></li>
+<li><a data-lbl="careers" href="https://www.oracle.com/corporate/careers/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">招贤纳士</font></font></a></li>
+</ul>
+
+</div>
+</div>
+</div>
+<!-- /U10v0 -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+<!-- Container/Display Start -->
+
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- End Body Container -->
+<!-- Start SiteCatalyst code -->
+<script language="JavaScript" src="./甲骨文宣布Java15_files/ora_ocom.js.下载"></script><script type="text/javascript" src="./甲骨文宣布Java15_files/ora_code_ocom.js.下载"></script><script type="text/javascript" src="./甲骨文宣布Java15_files/ora_code.js.下载"></script>
+<!-- End SiteCatalyst code -->
+<!--DTM embed code - Footer -->
+<script type="text/javascript">_satellite.pageBottom();</script><script>_satellite["__runScript3"](function(event, target) {
+var iTag = document.createElement("script"),infinityProdScript = "";
+
+/* Deploy the Infinity prod tag specific to each domain */
+if (location.host == "www.oracle.com") {
+    if (location.pathname.indexOf("/partners") != -1) {
+      infinityProdScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/partners/odc.js?_ora.context=analytics:production"
+    } else {
+      infinityProdScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/oracle/odc.js?_ora.context=analytics:production"
+    }  
+} else if (location.host == "community.oracle.com") {
+    infinityProdScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/oraclecommunity/odc.js?_ora.context=analytics:production";
+} else if (location.host == "blogs.oracle.com" || location.host == "www.ateam-oracle.com") {
+    infinityProdScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/oracleblogs/odc.js?_ora.context=analytics:production";
+} else if (location.host == "developer.oracle.com") {
+    infinityProdScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/oracledeveloper/odc.js?_ora.context=analytics:production";
+} else if (location.host == "go.java") {
+    infinityProdScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/gojava/odc.js?_ora.context=analytics:production";
+} else if (location.host == "oraclefoundation.org") {
+    infinityProdScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/oraclefoundation/odc.js?_ora.context=analytics:production ";
+}
+iTag.src = infinityProdScript;
+iTag.async = true;
+iTag.type = 'text/javascript';
+document.head.appendChild(iTag);       
+});</script><script>
+/* Create the Eloqua tracking array if it doesn't exist */
+var _elqQ = _elqQ || [];
+var elq_path = '/i/';
+var elq_global = 'elqCfg.min.js'
+/* Eloqua server (root) */				
+var elq_root = '//img03.en25.com';					// Eloqua ONLY has production
+var elq_prodID = '1973398186';						// Eloqua PROD instance
+var elq_devID  = '30554202';						// Eloqua DEV instance
+
+/* Set up and send the Eloqua ping to Eloqua PROD instance, but only send web site PRODUCTION data. */
+_elqQ.push(['elqSetSiteId', elq_prodID]);
+_elqQ.push(['elqUseFirstPartyCookie', 'go.oracle.com']);              //For PROD
+_elqQ.push(['elqTrackPageView']);
+
+/* The function to insert the asyncronous JavaScript into the page once the DOM has loaded */
+(function () {
+  function async_load() {
+    var s = document.createElement('script'); 
+    s.type = 'text/javascript'; 
+    s.async = true;
+    s.src = '//img03.en25.com/i/elqCfg.min.js';
+    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  }
+  if(window.jQuery) {
+	  jQuery(document).ready(function($) { async_load(); });
+	} else {
+		document.addEventListener("DOMContentLoaded", function(event) { async_load(); });	
+	}
+})();
+
+</script><script>
+// Declare Bluekai variables.
+window.bluekai = {};
+window.bluekai.loaded = "NotSet";
+var consent_level = _satellite.getVar('trusteConsent');
+
+var isStage = (  location.host.indexOf('-stage') != -1    ||
+				location.host.indexOf('-content') != -1  ||
+				location.host.indexOf('localhost') != -1 ||
+				location.host.indexOf('.us.oracle.com') != -1 ||
+				location.host.indexOf('127.0.0.1') != -1 ||				
+				location.host.indexOf('-dev') != -1 ||
+				location.host.indexOf('www-sites') != -1
+			 )
+
+var ora_bk_version = 'bkIn:1.0:v1.3:SentTo' + (isStage) ? 26595 : 25867;  
+window.bk_async = function() {
+  bkTagID = (isStage) ? 26595 : 25867;
+  bk_addPageCtx("contTop", (typeof(contTop) !== 'undefined') ? contTop : '');
+  bk_addPageCtx("contLang", (typeof(language_value) !== 'undefined') ? language_value : '');
+  bk_addPageCtx("prodInt", (typeof(prodInt) !== 'undefined') ? prodInt : '');
+  bk_addPageCtx("pgname", (typeof(bk_pgname) !== 'undefined') ? bk_pgname : '');
+  bk_allow_multiple_calls = true;
+  BKTAG.doTag(bkTagID, 1);
+	setTimeout(function(){
+      (function() {
+        // Check cached data is valid to use
+        /*if(validateBlukeCacheData()){
+          var cachedData = window.localStorage.getItem('BlueKaiCampaigns');
+          cachedData = JSON.parse(cachedData);
+          window.dataLayerObject.user.campaigns = cachedData.campaigns;
+          window.bluekai = cachedData.bluekai;
+        }else {*/
+        if (window.dataLayerObject.maxymiserDeployed != undefined && window.dataLayerObject.maxymiserDeployed == true) {
+          callBluekaiScript();
+        }
+        //}
+      }());
+    },1000); // load bluekai json script.
+};
+
+var bk_scripts = document.getElementsByTagName('script')[0];
+var bk_s = document.createElement('script');
+bk_s.async = true;
+bk_s.src = "//tags.bkrtx.com/js/bk-coretag.js";
+bk_scripts.parentNode.insertBefore(bk_s, bk_scripts);
+
+
+/* Function to call Bluekai 46606 json return */
+function callBluekaiScript() {
+  if(window.jQuery) {
+      // Create request object.
+			var xhr;
+
+			if(xhr && xhr.readyState != 4 && xhr.readyState != 0){
+			  xhr.abort();
+			}
+			// Ajax Request to get the Bluekai data.
+			xhr = jQuery.ajax({
+			  url: "//tags.bluekai.com/site/46606?ret=js",
+			  type: "GET" ,
+			  dataType:  "script",
+			  cache: true,
+			  crossDomain: true,
+			  timeout: 4000,
+			  success: function(a) {
+				if (window.bk_results) {
+					window.dataLayerObject.user.campaigns.status = "loaded";
+					bkCampaigns(); // Call the function to read data for Campaigns - 280341/280343/280348/280349
+					document.cookie = "ORA_WWW_ABMDATA="+JSON.stringify(window.bluekai) + "; path=/"; // Store data for Campaigns to Cookie - 280341/280343/280348/280349
+					maptoDataLayer(); // Call the function to map json data to Datalayer object.
+                    //cacheBlueKaiData(); // Store bluekai data on browser local storage and set expire date ro 24 Hours 
+				}        
+			  },
+			  error: function(e) {
+				  window.bluekai.loaded = "NoResponse"; // Failed to load Bluekai data.
+				  window.dataLayerObject.user.campaigns.status = "NoResponse"; // If the bluekai API call fails, set Status to 'NoResponse'
+                  //cacheBlueKaiData(); // Store bluekai data on browser local storage and set expire date ro 24 Hours
+			  }
+			});  
+	} else {
+	    // If jQuery is not found, use plain javascript to load bluekai json.
+			var s = document.createElement('script'); 
+			s.type = 'text/javascript'; 
+			s.async = true;
+			s.src = "//tags.bluekai.com/site/46606?ret=js";
+			s.onload = function() {
+        if (window.bk_results) {
+			      window.dataLayerObject.user.campaigns.status = "loaded";
+			      bkCampaigns(); // Call the function to read data for Campaigns - 280341/280343/280348/280349
+            document.cookie = "ORA_WWW_ABMDATA=" + JSON.stringify(window.bluekai) + "; path=/"; // Store data for Campaigns to Cookie - 280341/280343/280348/280349
+            maptoDataLayer(); // Call the function to map json data to Datalayer object.
+        } else {
+            window.bluekai.loaded = "NoResponse"; // Failed to load Bluekai data.
+            window.dataLayerObject.user.campaigns.status = "NoResponse"; // If the bluekai API call fails, set Status to 'NoResponse' 
+        }  
+      };
+      document.getElementsByTagName('script')[0].appendChild(s);
+      //cacheBlueKaiData(); // Store bluekai data on browser local storage and set expire date ro 24 Hours
+  }
+}  
+
+/* Function to read the bluekai data to window.bluekai object. */
+function bkCampaigns() {
+    // Set the values to Bluekai object.
+    window.bluekai.loaded = (window.bk_results.campaigns.length > 0) ? "loaded" : window.bluekai.loaded;
+    window.bluekai.data = [];
+    window.bluekai.bkId = 'NoValue';
+
+    // Loop through the list of campaigns to retrieve the categories.
+    for (var x in window.bk_results.campaigns) {
+       var campaignId = window.bk_results.campaigns[x].campaign;
+       if (campaignId == '280343' || campaignId == '280341' || campaignId == '280349' || campaignId == '280348') {
+            var data_obj = {};
+            data_obj['campaignId'] = campaignId;
+            data_obj['categories'] = mapCategories(window.bk_results.campaigns[x]);
+            window.bluekai.data.push(data_obj);
+       }
+       // Set bk value to bkId.
+       if(window.bluekai.bkId == 'NoValue' && window.bk_results.campaigns[x].bk) {
+         window.bluekai.bkId = window.bk_results.campaigns[x].bk;
+       }
+    }  // End of for loop.
+}
+
+/* Function to map Bluekai json return data to DataLayer object */
+function maptoDataLayer() {
+	  //assign bk_result to dataLayerObject
+  	if(window.bk_results && window.dataLayerObject && window.dataLayerObject.user.campaigns.status == "loaded") {
+      if(window.bk_results.campaigns.length > 0) {
+        window.dataLayerObject.user.campaigns.data = window.bk_results.campaigns;
+      } else {
+      	window.dataLayerObject.user.campaigns.data = [];
+      }
+  	}
+}
+
+/* Function to map the categories for a campaign */
+function mapCategories(campaign) {
+	var campaignSet = [];
+	if(campaign.categories != null) {
+		for (var j = campaign.categories.length; j--;) {
+			campaignSet.push(campaign.categories[j].categoryID);
+    }
+  } else {
+		campaignSet = ["NoValue"];
+	}
+	return campaignSet;
+}
+
+/* Function to cache bluekai data */
+/*function cacheBlueKaiData() {
+   var expireDate = new Date().getTime() + (24 * 60 * 60 * 1000), // 24Hours
+   data = {
+     'campaigns': window.dataLayerObject.user.campaigns,
+     't': expireDate,
+     'privacy': {
+         'consentDecision': window.dataLayerObject.privacy.consentDecision,
+         'dnt': window.dataLayerObject.privacy.dnt
+      },
+     'bluekai': window.bluekai  
+  };
+  window.localStorage.setItem('BlueKaiCampaigns',JSON.stringify(data));
+}*/
+
+// Function to validate bluekai Cache object
+/*function validateBlukeCacheData() {
+  var status=false;
+  // Check cached data exists
+  if(window.localStorage.getItem('BlueKaiCampaigns')){
+      var cachedData = window.localStorage.getItem('BlueKaiCampaigns');
+      cachedData = JSON.parse(cachedData);
+      //check data expired?
+      if(new Date().getTime() < cachedData.t){
+        //Check for truste change
+        if(cachedData.privacy.dnt === window.dataLayerObject.privacy.dnt && ( JSON.stringify(window.dataLayerObject.privacy.consentDecision) == JSON.stringify(cachedData.privacy.consentDecision)) ){
+           status = true;
+         }
+      }
+  }
+  return status;
+}*/
+
+</script>
+<!--End-->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+<!-- Container/Display end -->
+
+
+			</div><script async="async" type="text/javascript" crossorigin="" src="./甲骨文宣布Java15_files/v1.7-14"></script><iframe name="trustarc_notice" id="trustarcNoticeFrame" title="Trustarc Cross-Domain Consent Frame" src="./甲骨文宣布Java15_files/get.html" style="display: none;"></iframe>
+		
+				
+
+<iframe name="__bkframe" id="__bkframe" title="bk" src="./甲骨文宣布Java15_files/saved_resource.html" style="border: 0px; width: 0px; height: 0px; display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px);"></iframe><script>
+function gtag(){dataLayer.push(arguments)}var regionIds={nas:"DC-3573281",apac:"DC-1106306",lad:"DC-3573286",emea:"DC-3573292"},region=_satellite.getVar("siteRegion"),script=document.createElement("script");script.type="text/javascript",script.async=!0,script.src="https://www.googletagmanager.com/gtag/js?id="+regionIds[region],document.head.appendChild(script),window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config",regionIds[region]);
+</script><script>
+function containsAny(e,t){return 0<e.filter(function(e){return-1<t.indexOf(e)}).length}function loadConsiPixel(){var e={nas:"DC-3573281/ubert0/",apac:"DC-1106306/ubert0/",lad:"DC-3573286/ubert0/",emea:"DC-3573292/ubert0/"},t=_satellite.getVar("siteRegion"),n=["event2","event10","event11","event15","event18","event22","event26"];if(window.s&&s.events&&containsAny(s.events.split(","),n)){var a=_satellite.getVar("scData"),o=_satellite.getVar("metaDataLayer");o.keywords=o.keywords?o.keywords:"Not Available";Math.random();1==_satellite.getVar("apacRegion")&&"1106306",gtag("event","conversion",{allow_custom_scripts:!0,u1:a.pageName,u10:"[ZIP]",u11:decodeURIComponent(a.userAction),u12:a.globalId,u13:"[COMPANY SIZE]",u14:a.videoTitle,u15:a.linkName,u16:a.fileDownload,u17:decodeURIComponent(a.pageURL),u2:a.siteId,u3:a.userType,u4:o.keywords,u5:a.loginStatus,u6:"[COMPANY]",u7:"[JOB TITLE]",u8:"[CITY]",u9:"[STATE]",send_to:e[t]+"consi0+standard"})}}"undefined"!=typeof gtag?loadConsiPixel():setTimeout(function(){loadConsiPixel()},1e3);
+</script><iframe height="0" width="0" style="display: none; visibility: hidden;" src="./甲骨文宣布Java15_files/activityi.html"></iframe><script>
+function loadAwarenessPixel(){var e={nas:"DC-3573281/ubert0/",apac:"DC-1106306/ubert0/",lad:"DC-3573286/ubert0/",emea:"DC-3573292/ubert0/"},t=_satellite.getVar("siteRegion"),a=_satellite.getVar("scData"),n=["event1","event2","event3","event8","event9","event10","event11","event15","event18","event22","event23","event26","event27","event51","event52"];if(window.s&&-1==n.indexOf(s.events)&&-1==a.pageName.indexOf("Thank")){var u=_satellite.getVar("metaDataLayer");u.keywords=u.keywords?u.keywords:"Not Available",gtag("event","conversion",{allow_custom_scripts:!0,u1:a.pageName,u2:a.siteId,u3:a.userType,u4:u.keywords,u5:a.loginStatus,u6:"[COMPANY]",u7:"[JOB TITLE]",u8:"[CITY]",u9:"[STATE]",u10:"[ZIP]",u11:a.userAction,u12:a.globalId,u13:"[COMPANY SIZE]",u14:a.videoTitle,u15:a.linkName,u16:a.fileDownload,u17:decodeURIComponent(a.pageURL),send_to:e[t]+"awarn0+unique"})}}"undefined"!=typeof gtag?loadAwarenessPixel():setTimeout(loadAwarenessPixel,1e3);
+</script><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./甲骨文宣布Java15_files/translate_24dp.png" width="20" height="20" alt="Google 翻译"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div><div class="xl-chrome-ext-bar" id="xl_chrome_ext_{4DB361DE-01F7-4376-B494-639E489D19ED}" style="display: none;">
+      <div class="xl-chrome-ext-bar__logo"></div>
+
+      <a id="xl_chrome_ext_download" href="javascript:;" class="xl-chrome-ext-bar__option">下载视频</a>
+      <a id="xl_chrome_ext_close" href="javascript:;" class="xl-chrome-ext-bar__close"></a>
+    </div></body></html>
