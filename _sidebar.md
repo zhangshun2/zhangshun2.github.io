@@ -1,7 +1,9 @@
 *  学习
-    * 文档型网站搭建
+    * <color>文档型网站搭建</color>
         * gitalk
             * [bug:Error:_NotFound](/docs/记录一次gitPage的搭建过程.md)
+        * gitter
+            * [gitter接入](/docs/gitter接入.md)    
     * java
     * 功能组件api
         * [阿里系的sdk包引入注意事项](/docs/阿里系的sdk包引入注意事项.md)

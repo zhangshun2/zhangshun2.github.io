@@ -1,5 +1,5 @@
 # 记录一次gitPage的搭建过程.
-> @author zhangshun
+> @author zhangshun 
 
 * 一开始我的需求很简单,我需要一个docsify网站.把我的md笔记整理,阿里云的博客内容迁移
    * 所以我需要一个评论区
