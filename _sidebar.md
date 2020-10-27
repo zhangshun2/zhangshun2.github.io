@@ -13,9 +13,13 @@
             * [安装](/html/jdk15/JDK15安装.md)
             * [JSP379官网规范和demo](/html/jdk15/JEP378.md)
             * [JSP379demo](/html/jdk15/JEP378_java测试.md)
+        * 阿里巴巴开发首页
+            * [终极版](/java/阿里巴巴开发手册终极版.md)
+            * [泰山版](/java/阿里编程规范泰山版.md)    
     * sql
         * MYSQL
-            * [模板备份](/sql/常用sql模板备份.md)        
+            * [模板备份](/sql/常用sql模板备份.md)
+            * [sql优化](/sql/高级MySql_sql优化_司晓杰.md)        
     * 功能组件api
         * [阿里系的sdk包引入注意事项](/docs/阿里系的sdk包引入注意事项.md)
     * k8s  
@@ -26,4 +30,8 @@
             * [定期归档](/docs/华为云归档方案.md)     
     * 大数据
         * es
-            * [1]()                       
+            * [ElasticSearch教程](/java/ElasticSearch教程.md)  
+            * [es语句概述](/java/es搜索等语句总结.md)                     
+    * GO
+        * 编程指南
+            * [编程指南](/java/GO_Web编程.md)        
