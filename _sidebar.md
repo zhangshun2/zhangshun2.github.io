@@ -19,7 +19,13 @@
     * sql
         * MYSQL
             * [模板备份](/sql/常用sql模板备份.md)
-            * [sql优化](/sql/高级MySql_sql优化_司晓杰.md)        
+            * [sql优化](/sql/高级MySql_sql优化_司晓杰.md)
+    * VUE
+        * 基础篇
+            * [基础语法糖](/vue/VUE基本语法糖.md)
+            * [指令](/vue/VUE指令.md)
+            * [用法引申](/vue/VUE取值用法引申.md)
+            * [场景引申](/vue/VUE功能场景总结.md)                
     * 功能组件api
         * [阿里系的sdk包引入注意事项](/docs/阿里系的sdk包引入注意事项.md)
     * k8s  
