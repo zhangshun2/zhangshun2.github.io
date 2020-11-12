@@ -8,6 +8,8 @@
         * 基础
             * [java基础](/java/基础-蒋文明笔记.md)
             * [java虚拟机](/java/基础-Java虚拟机第二版.md)
+        * bug排查
+            * [MQ报错总结.md](/java/MQ报错总结.md)    
         * JDK15
             * [甲骨文官网介绍](/html/jdk15/甲骨文宣布Java15.md)
             * [安装](/html/jdk15/JDK15安装.md)
