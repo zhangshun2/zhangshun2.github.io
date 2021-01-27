@@ -18,6 +18,8 @@
         * 阿里巴巴开发首页
             * [终极版](/java/阿里巴巴开发手册终极版.md)
             * [泰山版](/java/阿里编程规范泰山版.md)    
+        * 队列
+            * [KAFKA](/java/kafka.md)    
     * sql
         * MYSQL
             * [模板备份](/sql/常用sql模板备份.md)
