@@ -20,6 +20,9 @@
     * MYSQL
         * [模板备份](/sql/常用sql模板备份.md)
         * [sql优化](/sql/高级MySql_sql优化_司晓杰.md)
+* effective java
+  * [1.用静态方法创建构造器](/java/effective_java/1.用静态方法创建构造器.md)
+  * [2.构造器](/java/effective_java/2.存在更多参数时推荐使用构造器builder.md)
 * VUE
     * 基础篇
         * [基础语法糖](/vue/VUE基本语法糖.md)
