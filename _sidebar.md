@@ -1,47 +1,50 @@
-* 学习
-    
-    * java
-        * 基础
-            * 面向对象
-              * [什么是面向对象](/java/什么是面向对象.md)
-              * [面向对象的三大特征](/java/面向对象的三大特征.md)
-        * JDK15
-            * [甲骨文官网介绍](/html/jdk15/甲骨文宣布Java15.md)
-            * [安装](/html/jdk15/JDK15安装.md)
-            * [JSP379官网规范和demo](/html/jdk15/JEP378.md)
-            * [JSP379demo](/html/jdk15/JEP378_java测试.md)
-        * 队列
-            * [KAFKA](/java/kafka.md)    
-    * 数据库
-        * MYSQL
-            * [模板备份](/sql/常用sql模板备份.md)
-            * [sql优化](/sql/高级MySql_sql优化_司晓杰.md)
-    * VUE
-        * 基础篇
-            * [基础语法糖](/vue/VUE基本语法糖.md)
-            * [指令](/vue/VUE指令.md)
-            * [用法引申](/vue/VUE取值用法引申.md)
-            * [场景引申](/vue/VUE功能场景总结.md)
-    * 业务场景
-        * [华为云定期归档](/docs/华为云归档方案.md)
-        * [MQ报错总结.md](/java/MQ报错总结.md)
-        * [阿里系的sdk包引入注意事项](/docs/阿里系的sdk包引入注意事项.md)
-    * <color>文档型网站搭建</color>
-      * gitalk
-      * [bug:Error:_NotFound](/docs/记录一次gitPage的搭建过程.md)
-      * gitter
-      * [gitter接入](/docs/gitter接入.md)
-    * 相关pdf
-      * [java基础](/java/基础-蒋文明笔记.md)
-      * [java虚拟机](/java/基础-Java虚拟机第二版.md)
-      * [GO编程指南](/java/GO_Web编程.md)
-      * [ElasticSearch教程](/java/ElasticSearch教程.md)  
-      * [es语句概述](/java/es搜索等语句总结.md)
-      * [K8S学习](/docs/K8S学习link.md)
-      * 阿里巴巴开发首页
-        * [终极版](/java/阿里巴巴开发手册终极版.md)
-        * [泰山版](/java/阿里编程规范泰山版.md)
-* 生活
-    * 洛阳
-        * [2021辞职后生活记录](/life/洛阳博物馆.md)            
-                 
+
+
+* 基础
+    * 面向对象
+      * [什么是面向对象](/java/什么是面向对象.md)
+      * [面向对象的三大特征](/java/面向对象的三大特征.md)
+
+[//]: # (* JDK15)
+
+[//]: # (    * [甲骨文官网介绍]&#40;/html/jdk15/甲骨文宣布Java15.md&#41;)
+
+[//]: # (    * [安装]&#40;/html/jdk15/JDK15安装.md&#41;)
+
+[//]: # (    * [JSP379官网规范和demo]&#40;/html/jdk15/JEP378.md&#41;)
+
+[//]: # (    * [JSP379demo]&#40;/html/jdk15/JEP378_java测试.md&#41;)
+* 队列
+    * [KAFKA](/java/kafka.md)    
+* 数据库
+    * MYSQL
+        * [模板备份](/sql/常用sql模板备份.md)
+        * [sql优化](/sql/高级MySql_sql优化_司晓杰.md)
+* VUE
+    * 基础篇
+        * [基础语法糖](/vue/VUE基本语法糖.md)
+        * [指令](/vue/VUE指令.md)
+        * [用法引申](/vue/VUE取值用法引申.md)
+        * [场景引申](/vue/VUE功能场景总结.md)
+* 业务场景
+    * [华为云定期归档](/docs/华为云归档方案.md)
+    * [MQ报错总结.md](/java/MQ报错总结.md)
+    * [阿里系的sdk包引入注意事项](/docs/阿里系的sdk包引入注意事项.md)
+* <color>文档型网站</color>
+  * gitalk
+    * [bug:Error:_NotFound](/docs/记录一次gitPage的搭建过程.md)
+  * gitter
+    * [gitter接入](/docs/gitter接入.md)
+* 相关pdf
+  * [java基础](/java/基础-蒋文明笔记.md)
+  * [java虚拟机](/java/基础-Java虚拟机第二版.md)
+  * [GO编程指南](/java/GO_Web编程.md)
+  * [ElasticSearch教程](/java/ElasticSearch教程.md)  
+  * [es语句概述](/java/es搜索等语句总结.md)
+  * [K8S学习](/docs/K8S学习link.md)
+  * 阿里巴巴开发首页
+    * [终极版](/java/阿里巴巴开发手册终极版.md)
+    * [泰山版](/java/阿里编程规范泰山版.md)
+* 洛阳
+    * [2021辞职后生活记录](/life/洛阳博物馆.md)            
+             
