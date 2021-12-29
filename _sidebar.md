@@ -6,6 +6,8 @@
             * [gitter接入](/docs/gitter接入.md)    
     * java
         * 基础
+            * 面向对象
+              * 什么是面向对象
             * [java基础](/java/基础-蒋文明笔记.md)
             * [java虚拟机](/java/基础-Java虚拟机第二版.md)
         * bug排查
