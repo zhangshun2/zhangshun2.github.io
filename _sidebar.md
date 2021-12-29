@@ -1,16 +1,10 @@
-*  学习
-    * <color>文档型网站搭建</color>
-        * gitalk
-            * [bug:Error:_NotFound](/docs/记录一次gitPage的搭建过程.md)
-        * gitter
-            * [gitter接入](/docs/gitter接入.md)    
+* 学习
+    
     * java
         * 基础
             * 面向对象
               * [什么是面向对象](/java/什么是面向对象.md)
               * [面向对象的三大特征](/java/面向对象的三大特征.md)
-            * [java基础](/java/基础-蒋文明笔记.md)
-            * [java虚拟机](/java/基础-Java虚拟机第二版.md)
         * bug排查
             * [MQ报错总结.md](/java/MQ报错总结.md)    
         * JDK15
@@ -23,7 +17,7 @@
             * [泰山版](/java/阿里编程规范泰山版.md)    
         * 队列
             * [KAFKA](/java/kafka.md)    
-    * sql
+    * 数据库
         * MYSQL
             * [模板备份](/sql/常用sql模板备份.md)
             * [sql优化](/sql/高级MySql_sql优化_司晓杰.md)
@@ -35,19 +29,20 @@
             * [场景引申](/vue/VUE功能场景总结.md)                
     * 功能组件api
         * [阿里系的sdk包引入注意事项](/docs/阿里系的sdk包引入注意事项.md)
-    * k8s  
-        * 基础学习
-            * [K8S学习](/docs/K8S学习link.md)  
-    * 华为云
-        * 业务场景
-            * [定期归档](/docs/华为云归档方案.md)     
-    * 大数据
-        * es
-            * [ElasticSearch教程](/java/ElasticSearch教程.md)  
-            * [es语句概述](/java/es搜索等语句总结.md)                     
-    * GO
-        * 编程指南
-            * [编程指南](/java/GO_Web编程.md)  
+    * 业务场景
+        * [华为云定期归档](/docs/华为云归档方案.md)
+    * <color>文档型网站搭建</color>
+      * gitalk
+      * [bug:Error:_NotFound](/docs/记录一次gitPage的搭建过程.md)
+      * gitter
+      * [gitter接入](/docs/gitter接入.md)
+    * 相关pdf
+      * [java基础](/java/基础-蒋文明笔记.md)
+      * [java虚拟机](/java/基础-Java虚拟机第二版.md)
+      * [GO编程指南](/java/GO_Web编程.md)
+      * [ElasticSearch教程](/java/ElasticSearch教程.md)  
+      * [es语句概述](/java/es搜索等语句总结.md)
+      * [K8S学习](/docs/K8S学习link.md)
 * 生活
     * 洛阳
         * [2021辞职后生活记录](/life/洛阳博物馆.md)            
