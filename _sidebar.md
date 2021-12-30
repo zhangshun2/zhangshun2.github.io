@@ -4,6 +4,7 @@
     * 面向对象
       * [什么是面向对象](/java/什么是面向对象.md)
       * [面向对象的三大特征](/java/面向对象的三大特征.md)
+      * [面向对象五个原则](/java/面向对象五个原则.md)
 
 [//]: # (* JDK15)
 
@@ -23,6 +24,24 @@
 * effective java
   * [1.用静态方法创建构造器](/java/effective_java/1.用静态方法创建构造器.md)
   * [2.构造器](/java/effective_java/2.存在更多参数时推荐使用构造器builder.md)
+  * [3.强化单例能力](/java/effective_java/3.强化单例能力.md)
+  * [4.强化类不必实例化的能力](/java/effective_java/4.强化类不必实例化的能力.md)
+  * [5.优先考虑依赖注入](/java/effective_java/5.优先考虑依赖注入.md)
+  * [6.避免创建不必要的对象_减少内存开销](/java/effective_java/6.避免创建不必要的对象_减少内存开销.md)
+  * [7.消除对象的过期引用](/java/effective_java/7.消除对象的过期引用.md)
+  * [8.尽量不适用终结方法和清除方法](/java/effective_java/8.尽量不适用终结方法和清除方法.md)
+  * [9.try-with-resource优先于try-finally](/java/effective_java/9.try-with-resource优先于try-finally.md)
+  * [10.equals方法](/java/effective_java/10.equals方法.md)
+  * [11.覆盖equals时总要覆盖hashcode](/java/effective_java/11.覆盖equals时总要覆盖hashcode.md)
+  * [12.建议覆盖toString方法](/java/effective_java/12.建议覆盖toString方法.md)
+  * [13.谨慎的覆盖clone方法](/java/effective_java/13.谨慎的覆盖clone方法.md)
+  * [14.重写compare方法](/java/effective_java/14.重写compare方法.md)
+  * [15.尽可能降低类的可访问性](/java/effective_java/15.尽可能降低类的可访问性.md)
+  * [16.不直接暴露公有域](/java/effective_java/16.不直接暴露公有域.md)
+  * [17.不可变类](/java/effective_java/17.不可变类.md)
+  * [18.复合和转发](/java/effective_java/18.复合和转发.md)
+  * [19.继承和文档](/java/effective_java/19.继承和文档.md)
+  * [20.接口优于抽象类](/java/effective_java/20.接口优于抽象类.md)
 * VUE
     * 基础篇
         * [基础语法糖](/vue/VUE基本语法糖.md)
