@@ -7,8 +7,8 @@
 
 ---
 
-<object data="../pdf/GO_Web编程.pdf" type="application/pdf" width="1600px" height="1800px"> 
-    <embed src="../pdf/GO_Web编程.pdf"> 
+<object data="../../pdf/GO_Web编程.pdf" type="application/pdf" width="1600px" height="1800px"> 
+    <embed src="../../pdf/GO_Web编程.pdf"> 
      浏览器不支持展示PDF. 请下载PDF来查看文件: <a href="https://github.com/zhangshun2/zhangshun2.github.io/tree/master/pdf/GO_Web编程.pdf">Download PDF</a>.</p> 
     </embed> 
 </object>

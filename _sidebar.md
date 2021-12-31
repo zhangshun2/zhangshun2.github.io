@@ -2,21 +2,17 @@
 
 * 基础
     * 面向对象
-      * [什么是面向对象](/java/什么是面向对象.md)
-      * [面向对象的三大特征](/java/面向对象的三大特征.md)
-      * [面向对象五个原则](/java/面向对象五个原则.md)
-
-[//]: # (* JDK15)
-
-[//]: # (    * [甲骨文官网介绍]&#40;/html/jdk15/甲骨文宣布Java15.md&#41;)
-
-[//]: # (    * [安装]&#40;/html/jdk15/JDK15安装.md&#41;)
-
-[//]: # (    * [JSP379官网规范和demo]&#40;/html/jdk15/JEP378.md&#41;)
-
-[//]: # (    * [JSP379demo]&#40;/html/jdk15/JEP378_java测试.md&#41;)
+      * [什么是面向对象](/java/java基础/什么是面向对象.md)
+      * [面向对象的三大特征](/java/java基础/面向对象的三大特征.md)
+      * [面向对象五个原则](/java/java基础/面向对象五个原则.md)
+      * [什么是多态](/java/java基础/什么是多态.md)
+      * [代码复用的三种形式](/java/java基础/代码复用的三种形式.md)
+      * [变量和堆栈](/java/java基础/变量和堆栈.md)
+      * [方法重写和重载](/java/java基础/方法重写和重载.md)
+      * [构造函数](/java/java基础/构造函数.md)
+      * [重写和实现](/java/java基础/重写和实现.md)
 * 队列
-    * [KAFKA](/java/kafka.md)    
+    * [KAFKA](/java/队列/kafka.md)    
 * 数据库
     * MYSQL
         * [模板备份](/sql/常用sql模板备份.md)
@@ -50,7 +46,7 @@
         * [场景引申](/vue/VUE功能场景总结.md)
 * 业务场景
     * [华为云定期归档](/docs/华为云归档方案.md)
-    * [MQ报错总结.md](/java/MQ报错总结.md)
+    * [MQ报错总结.md](/java/业务/MQ报错总结.md)
     * [阿里系的sdk包引入注意事项](/docs/阿里系的sdk包引入注意事项.md)
 * <color>文档型网站</color>
   * gitalk
@@ -58,15 +54,15 @@
   * gitter
     * [gitter接入](/docs/gitter接入.md)
 * 相关pdf
-  * [java基础](/java/基础-蒋文明笔记.md)
-  * [java虚拟机](/java/基础-Java虚拟机第二版.md)
-  * [GO编程指南](/java/GO_Web编程.md)
-  * [ElasticSearch教程](/java/ElasticSearch教程.md)  
-  * [es语句概述](/java/es搜索等语句总结.md)
+  * [java基础](/java/pdf/基础-蒋文明笔记.md)
+  * [java虚拟机](/java/pdf/基础-Java虚拟机第二版.md)
+  * [GO编程指南](/java/pdf/GO_Web编程.md)
+  * [ElasticSearch教程](/java/pdf/ElasticSearch教程.md)  
+  * [es语句概述](/java/pdf/es搜索等语句总结.md)
   * [K8S学习](/docs/K8S学习link.md)
   * 阿里巴巴开发首页
-    * [终极版](/java/阿里巴巴开发手册终极版.md)
-    * [泰山版](/java/阿里编程规范泰山版.md)
+    * [终极版](/java/pdf/阿里巴巴开发手册终极版.md)
+    * [泰山版](/java/pdf/阿里编程规范泰山版.md)
 * 洛阳
     * [2021辞职后生活记录](/life/洛阳博物馆.md)            
              
