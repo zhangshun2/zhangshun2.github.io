@@ -47,6 +47,8 @@
     * 高效并发
         * java内存模型和线程
         * 线程安全和锁优化
+* spring体系
+    * [关于@Async的探讨](/java/源码探讨/关于JUC的ThreadPoolExecutor的探讨.md)
 * 队列
     * KAFKA
       * [KAFKA官方文档概述](/java/队列/kafka.md)    
@@ -107,5 +109,8 @@
 * 工具
   * git
     * [gitflow的安装和使用](/java/工具/git/gitflow.md)
+  * fidder
+    * [fidder切换小程序环境等](/java/工具/fidder/fidder自测和路由转发.md)
+
              
 
